@@ -1,6 +1,4 @@
-# [1.Hangover](<http://bailian.openjudge.cn/practice/1003/>)
-
-
+# [1.Hangover](http://bailian.openjudge.cn/practice/1003/)
 
 ```C++
 #include <iostream>
