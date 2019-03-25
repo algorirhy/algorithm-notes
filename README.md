@@ -1,8 +1,7 @@
 # LeetCode
-My  solutions for LeetCode and POJ in C++
+My  solutions for LeetCode and POJ
 
-| **#**	| **Problems**	| **Solutions**	| **Difficulty**|
+| **#**	| **Title**	| **Solution**	| **Difficulty**|
 | ---- | ------ | ------ | ------ |
-| 1 | [Hangover](http://bailian.openjudge.cn/practice/1003/) | ------ | Easy |
-|      |        |        |        |
+| 1 | [Hangover](http://bailian.openjudge.cn/practice/1003/) | [C++](<https://github.com/algorirhy/LeetCode/blob/master/solutions/Hangover.md>) | Easy |
 
