@@ -1,4 +1,4 @@
-# [2.TwoSum](https://leetcode.com/problems/two-sum/)
+# [2.Two Sum](https://leetcode.com/problems/two-sum/)
 
 ```C++
 class Solution {
@@ -20,3 +20,4 @@ public:
     }
 };
 ```
+
