@@ -43,7 +43,26 @@
 
 |**#**|**Title**|**Solution**|
 | :---: | :---: | :---: |
-|      |      |      |
+| 1002 | [A+B for Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000) | [C++](pat/0001-two-sum.md) |
+| 1006 | [ Sign In and Sign Out](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | [C++](pat/0001-two-sum.md) |
+| 1009 | [Product of Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805509540921344) | [C++](pat/0001-two-sum.md) |
+| 1011 | [ World Cup Betting](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944) | [C++](pat/0001-two-sum.md) |
+| 1019 | [ General Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984) | [C++](pat/0001-two-sum.md) |
+| 1020 | [ Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072) | [C++](pat/0001-two-sum.md) |
+| 1025 | [ PAT Ranking](https://pintia.cn/problem-sets/994805342720868352/problems/994805474338127872) | [C++](pat/0001-two-sum.md) |
+| 1027 | [ Colors in Mars](https://pintia.cn/problem-sets/994805342720868352/problems/994805470349344768) | [C++](pat/0001-two-sum.md) |
+| 1031 | [ Hello World for U](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416) | [C++](pat/0001-two-sum.md) |
+| 1032 | [ Sharing](https://pintia.cn/problem-sets/994805342720868352/problems/994805460652113920) | [C++](pat/0001-two-sum.md) |
+| 1036 | [ Boys vs Girls](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016) | [C++](pat/0001-two-sum.md) |
+| 1042 | [ Shuffling Machine](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672) | [C++](pat/0001-two-sum.md) |
+| 1046 | [ Shortest Distance](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424) | [C++](pat/0001-two-sum.md) |
+| 1052 | [ Linked List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805425780670464) | [C++](pat/0001-two-sum.md) |
+| 1058 | [ A+B in Hogwarts](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232) | [C++](pat/0001-two-sum.md) |
+| 1059 | [ Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488) | [C++](pat/0001-two-sum.md) |
+| 1060 | [ Are They Equal](https://pintia.cn/problem-sets/994805342720868352/problems/994805413520719872) | [C++](pat/0001-two-sum.md) |
+| 1065 | [ A+B and C (64bit)](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336) | [C++](pat/0001-two-sum.md) |
+| 1069 | [ The Black Hole of Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088) | [C++](pat/0001-two-sum.md) |
+| 1093 | [ Count PAT's](https://pintia.cn/problem-sets/994805342720868352/problems/994805373582557184) | [C++](pat/0001-two-sum.md) |
 
 
 
@@ -51,6 +70,5 @@
 
 | **#** | **Title** | **Solution** |
 | :---: | :---: | :----: |
-| 001 | [Hangover](http://bailian.openjudge.cn/practice/1003/)       | [C++](poj/0001-hangover.md) |
-| 002  | [电影节](http://bailian.openjudge.cn/practice/4151/)         | [C++](poj/0002-电影节.md) |
+| 1003 | [Hangover](http://poj.org/problem?id=1003) | [C++](poj/1003-hangover.md) |
 
