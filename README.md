@@ -58,7 +58,7 @@
 | 1046 | [ Shortest Distance](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424) | [C++](pat/1046-shortest-distance.md) |
 | 1052 | [ Linked List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805425780670464) | [C++](pat/1052-linked-list-sorting.md) |
 | 1058 | [ A+B in Hogwarts](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232) | [C++](pat/1058-hogwarts.md) |
-| 1059 | [ Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488) | [C++](pat/1059-prime-factors .md) |
+| 1059 | [ Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488) | [C++](pat/1059-prime-factors.md) |
 | 1060 | [ Are They Equal](https://pintia.cn/problem-sets/994805342720868352/problems/994805413520719872) | [C++](pat/1060-are-they-equal.md) |
 | 1065 | [ A+B and C (64bit)](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336) | [C++](pat/1065-a-plus-b-and-c.md) |
 | 1069 | [ The Black Hole of Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088) | [C++](pat/1069-the-black-hole-of-numbers.md) |
