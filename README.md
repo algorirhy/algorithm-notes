@@ -103,12 +103,3 @@
 | 1065 | [ A+B and C (64bit)](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336) | [C++](pat/1065-a-plus-b-and-c.md) |
 | 1069 | [ The Black Hole of Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088) | [C++](pat/1069-the-black-hole-of-numbers.md) |
 | 1093 | [ Count PAT's](https://pintia.cn/problem-sets/994805342720868352/problems/994805373582557184) | [C++](pat/1093-count-pat's.md) |
-
-
-
-### POJ
-
-| **#** | **Title** | **Solution** |
-| :---: | :---: | :----: |
-| 1003 | [Hangover](http://poj.org/problem?id=1003) | [C++](poj/1003-hangover.md) |
-
