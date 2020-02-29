@@ -12,6 +12,7 @@
 | 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C++](leetcode/0011-container-with-most-water.md) | Medium |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C++](leetcode/0012-integer-to-roman.md) | Medium |
 | 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C++](leetcode/0013-roman-to-integer.md) | Easy |
+| 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++](leetcode/0141-linked-list-cycle.md) | Easy |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++](leetcode/0142-linked-list-cycle-ii.md) | Medium |
