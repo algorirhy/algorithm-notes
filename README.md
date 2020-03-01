@@ -10,6 +10,7 @@
 | 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) | [C++](leetcode/0005-longest-palindromic-substring.md) | Medium |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C++](leetcode/0007-reverse-integer.md) | Easy |
 | 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C++](leetcode/0008-string-to-integer-atoi.md) | Medium |
+| 9 | [回文数](https://leetcode-cn.com/problems/palindrome-number) | [C++](leetcode/0009-palindrome-number.md) | Easy |
 | 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C++](leetcode/0011-container-with-most-water.md) | Medium |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C++](leetcode/0012-integer-to-roman.md) | Medium |
 | 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C++](leetcode/0013-roman-to-integer.md) | Easy |
