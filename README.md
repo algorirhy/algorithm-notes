@@ -19,6 +19,7 @@
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++](leetcode/0142-linked-list-cycle-ii.md) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
 | 215 | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
+| 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [C++](leetcode/0225-implement-stack-using-queues.md) | Easy |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case/) | [C++](leetcode/0709-to-lower-case.md) | Easy |
 
 
@@ -60,7 +61,7 @@
 | 30 | [连续子数组的最大和](https://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484?tpId=13&tqId=11183&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/30-连续子数组的最大和.md)|
 | 31 | [整数中1出现的次数](https://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6?tpId=13&tqId=11184&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/31-整数中1出现的次数.md)|
 | 32 | [把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&tqId=11185&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/32-把数组排成最小的数.md)|
-| 33 | [ 丑数](https://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b?tpId=13&tqId=11186&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/33-丑数.md)|
+| 33 | [丑数](https://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b?tpId=13&tqId=11186&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/33-丑数.md)|
 | 34 | [第一个只出现一次的字符位置](https://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c?tpId=13&tqId=11187&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/34-第一个只出现一次的字符位置.md)|
 | 35 | [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&tqId=11188&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/35-数组中的逆序对.md)|
 | 36 | [两个链表的第一个公共结点](https://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46?tpId=13&tqId=11189&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/36-两个链表的第一个公共节点.md)|
@@ -72,7 +73,7 @@
 | 42 | [和为S的两个数字](https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b?tpId=13&tqId=11195&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/42-和为S的两个数字.md)|
 | 43 | [左旋转字符串](https://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?tpId=13&tqId=11196&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/43-左旋转字符串.md)|
 | 44 | [翻转单词顺序列](https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?tpId=13&tqId=11197&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/44-翻转单词顺序列.md)|
-| 45 | [ 扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&tqId=11198&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/45-扑克牌顺子.md)|
+| 45 | [扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&tqId=11198&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/45-扑克牌顺子.md)|
 | 46 | [孩子们的游戏](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?tpId=13&tqId=11199&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/46-孩子们的游戏.md)|
 | 47 | [求1+2+3+...+n](https://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1?tpId=13&tqId=11200&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/47-求1+2+3+...+n.md)|
 | 48 | [不用加减乘除做加法](https://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?tpId=13&tqId=11201&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/48-不用加减乘除做加法.md)|
@@ -102,22 +103,22 @@
 |**#**|**Title**|**Solution**|
 | :---: | :---: | :---: |
 | 1002 | [A+B for Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000) | [C++](pat/1002-polynomials.md) |
-| 1006 | [ Sign In and Sign Out](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | [C++](pat/1006-sign-in-and-sign-out.md) |
+| 1006 | [Sign In and Sign Out](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | [C++](pat/1006-sign-in-and-sign-out.md) |
 | 1009 | [Product of Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805509540921344) | [C++](pat/1009-product-of-polynomials.md) |
-| 1011 | [ World Cup Betting](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944) | [C++](pat/1011-world-cup-betting.md) |
-| 1019 | [ General Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984) | [C++](pat/1019-general-palidromic-number.md) |
-| 1020 | [ Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072) | [C++](pat/1020-tree-traversals.md) |
-| 1025 | [ PAT Ranking](https://pintia.cn/problem-sets/994805342720868352/problems/994805474338127872) | [C++](pat/1025-pat-ranking.md) |
-| 1027 | [ Colors in Mars](https://pintia.cn/problem-sets/994805342720868352/problems/994805470349344768) | [C++](pat/1027-colors-in-mars.md) |
-| 1031 | [ Hello World for U](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416) | [C++](pat/1031-hello-world-for-u.md) |
-| 1032 | [ Sharing](https://pintia.cn/problem-sets/994805342720868352/problems/994805460652113920) | [C++](pat/1032-sharing.md) |
-| 1036 | [ Boys vs Girls](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016) | [C++](pat/1036-boys-vs-girls.md) |
-| 1042 | [ Shuffling Machine](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672) | [C++](pat/1042-shuffling-machine.md) |
-| 1046 | [ Shortest Distance](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424) | [C++](pat/1046-shortest-distance.md) |
-| 1052 | [ Linked List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805425780670464) | [C++](pat/1052-linked-list-sorting.md) |
-| 1058 | [ A+B in Hogwarts](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232) | [C++](pat/1058-hogwarts.md) |
-| 1059 | [ Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488) | [C++](pat/1059-prime-factors.md) |
-| 1060 | [ Are They Equal](https://pintia.cn/problem-sets/994805342720868352/problems/994805413520719872) | [C++](pat/1060-are-they-equal.md) |
-| 1065 | [ A+B and C (64bit)](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336) | [C++](pat/1065-a-plus-b-and-c.md) |
-| 1069 | [ The Black Hole of Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088) | [C++](pat/1069-the-black-hole-of-numbers.md) |
-| 1093 | [ Count PAT's](https://pintia.cn/problem-sets/994805342720868352/problems/994805373582557184) | [C++](pat/1093-count-pat's.md) |
+| 1011 | [World Cup Betting](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944) | [C++](pat/1011-world-cup-betting.md) |
+| 1019 | [General Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984) | [C++](pat/1019-general-palidromic-number.md) |
+| 1020 | [Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072) | [C++](pat/1020-tree-traversals.md) |
+| 1025 | [PAT Ranking](https://pintia.cn/problem-sets/994805342720868352/problems/994805474338127872) | [C++](pat/1025-pat-ranking.md) |
+| 1027 | [Colors in Mars](https://pintia.cn/problem-sets/994805342720868352/problems/994805470349344768) | [C++](pat/1027-colors-in-mars.md) |
+| 1031 | [Hello World for U](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416) | [C++](pat/1031-hello-world-for-u.md) |
+| 1032 | [Sharing](https://pintia.cn/problem-sets/994805342720868352/problems/994805460652113920) | [C++](pat/1032-sharing.md) |
+| 1036 | [Boys vs Girls](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016) | [C++](pat/1036-boys-vs-girls.md) |
+| 1042 | [Shuffling Machine](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672) | [C++](pat/1042-shuffling-machine.md) |
+| 1046 | [Shortest Distance](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424) | [C++](pat/1046-shortest-distance.md) |
+| 1052 | [Linked List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805425780670464) | [C++](pat/1052-linked-list-sorting.md) |
+| 1058 | [A+B in Hogwarts](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232) | [C++](pat/1058-hogwarts.md) |
+| 1059 | [Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488) | [C++](pat/1059-prime-factors.md) |
+| 1060 | [Are They Equal](https://pintia.cn/problem-sets/994805342720868352/problems/994805413520719872) | [C++](pat/1060-are-they-equal.md) |
+| 1065 | [A+B and C (64bit)](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336) | [C++](pat/1065-a-plus-b-and-c.md) |
+| 1069 | [The Black Hole of Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088) | [C++](pat/1069-the-black-hole-of-numbers.md) |
+| 1093 | [Count PAT's](https://pintia.cn/problem-sets/994805342720868352/problems/994805373582557184) | [C++](pat/1093-count-pat's.md) |
