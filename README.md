@@ -9,7 +9,6 @@
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [C++](leetcode/0003-longest-substring-without-repeating-characters.md) | Medium |
 | 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) | [C++](leetcode/0005-longest-palindromic-substring.md) | Medium |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C++](leetcode/0007-reverse-integer.md) | Easy |
-| 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C++](leetcode/0008-string-to-integer-atoi.md) | Medium |
 | 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C++](leetcode/0011-container-with-most-water.md) | Medium |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C++](leetcode/0012-integer-to-roman.md) | Medium |
 | 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C++](leetcode/0013-roman-to-integer.md) | Easy |
@@ -78,7 +77,7 @@
 | 46 | [孩子们的游戏](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?tpId=13&tqId=11199&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/46-孩子们的游戏.md)|
 | 47 | [求1+2+3+...+n](https://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1?tpId=13&tqId=11200&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/47-求1+2+3+...+n.md)|
 | 48 | [不用加减乘除做加法](https://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?tpId=13&tqId=11201&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/48-不用加减乘除做加法.md)|
-| 49 | [把字符串转换成整数](https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/49-把字符串转换成整数.md)|
+| 49 | [把字符串转换成整数](https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/49-把字符串转成整数.md)|
 | 50 | [数组中重复的数字](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/50-数组中重复的数字.md)|
 | 51 | [构建乘积数组](https://www.nowcoder.com/practice/94a4d381a68b47b7a8bed86f2975db46?tpId=13&tqId=11204&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/51-构建乘积数组.md)|
 | 52 | [正则表达式匹配](https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?tpId=13&tqId=11205&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/52-正则表达式匹配.md)|
