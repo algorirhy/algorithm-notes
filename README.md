@@ -14,12 +14,15 @@
 | 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C++](leetcode/0011-container-with-most-water.md) | Medium |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C++](leetcode/0012-integer-to-roman.md) | Medium |
 | 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C++](leetcode/0013-roman-to-integer.md) | Easy |
+| 14 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | [C++ Java](leetcode/0014-longest-common-prefix.md) | Easy |
+| 15 | [ 三数之和](https://leetcode-cn.com/problems/3sum) | [Java](leetcode/0015-3sum.md) | Medium |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C++](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++](leetcode/0141-linked-list-cycle.md) | Easy |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++](leetcode/0142-linked-list-cycle-ii.md) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
+| 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++](leetcode/0206-reverse-linked-list.md) | Easy |
 | 215 | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [C++](leetcode/0225-implement-stack-using-queues.md) | Easy |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case/) | [C++](leetcode/0709-to-lower-case.md) | Easy |
