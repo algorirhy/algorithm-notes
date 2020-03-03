@@ -15,17 +15,20 @@
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [C++](leetcode/0012-integer-to-roman.md) | Medium |
 | 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C++](leetcode/0013-roman-to-integer.md) | Easy |
 | 14 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | [C++ Java](leetcode/0014-longest-common-prefix.md) | Easy |
-| 15 | [ 三数之和](https://leetcode-cn.com/problems/3sum) | [Java](leetcode/0015-3sum.md) | Medium |
+| 15 | [三数之和](https://leetcode-cn.com/problems/3sum) | [Java](leetcode/0015-3sum.md) | Medium |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C++](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
+| 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++](leetcode/0141-linked-list-cycle.md) | Easy |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++](leetcode/0142-linked-list-cycle-ii.md) | Medium |
+| 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++](leetcode/0206-reverse-linked-list.md) | Easy |
-| 215 | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
+| 215 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [C++](leetcode/0225-implement-stack-using-queues.md) | Easy |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case/) | [C++](leetcode/0709-to-lower-case.md) | Easy |
+| lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001sorted-merge.md) | Easy |
 
 
 
@@ -47,7 +50,7 @@
 | 11 | [二进制中1的个数](https://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8?tpId=13&tqId=11164&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/11-二进制中1的个数.md)|
 | 12 | [数值的整数次方](https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00?tpId=13&tqId=11165&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/12-数值的整数次方.md)|
 | 13 | [调整数组顺序使奇数位于偶数前面](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/13-调整数组顺序使奇数位于偶数前面.md)|
-| 14 | [链表中倒数第K个节点](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/14-链表中倒数第k个节点.md)|
+| 14 | [链表中倒数第 K 个节点](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/14-链表中倒数第k个节点.md)|
 | 15 | [反转链表](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?tpId=13&tqId=11168&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/15-反转链表.md)|
 | 16 | [合并两个排序的链表](https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=13&tqId=11169&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/16-合并两个排序的链表.md)|
 | 17 | [树的子结构](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&tqId=11170&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/17-树的子结构.md)|
@@ -62,7 +65,7 @@
 | 26 | [二叉搜索树与双向链表](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/26-二叉搜索树与双向链表.md)|
 | 27 | [字符串的排列](https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?tpId=13&tqId=11180&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/27-字符串的排列.md)|
 | 28 | [数组中出现次数超过一半的数字](https://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163?tpId=13&tqId=11181&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/28-数组中出现次数超过一半的数字.md)|
-| 29 | [最小的K个数](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&tqId=11182&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/29-最小的K个数.md)|
+| 29 | [最小的 K 个数](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&tqId=11182&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/29-最小的K个数.md)|
 | 30 | [连续子数组的最大和](https://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484?tpId=13&tqId=11183&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/30-连续子数组的最大和.md)|
 | 31 | [整数中1出现的次数](https://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6?tpId=13&tqId=11184&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/31-整数中1出现的次数.md)|
 | 32 | [把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&tqId=11185&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/32-把数组排成最小的数.md)|
@@ -74,8 +77,8 @@
 | 38 | [二叉树的深度](https://www.nowcoder.com/practice/435fb86331474282a3499955f0a41e8b?tpId=13&tqId=11191&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/38-二叉树的深度.md)|
 | 39 | [平衡二叉树](https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?tpId=13&tqId=11192&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/39-平衡二叉树.md)|
 | 40 | [数组中只出现一次的数字](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811?tpId=13&tqId=11193&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/40-数组中只出现一次的数字.md)|
-| 41 | [和为S的连续正数序列](https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?tpId=13&tqId=11194&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/41-和为S的连续正数序列.md)|
-| 42 | [和为S的两个数字](https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b?tpId=13&tqId=11195&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/42-和为S的两个数字.md)|
+| 41 | [和为 S 的连续正数序列](https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?tpId=13&tqId=11194&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/41-和为S的连续正数序列.md)|
+| 42 | [和为 S 的两个数字](https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b?tpId=13&tqId=11195&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/42-和为S的两个数字.md)|
 | 43 | [左旋转字符串](https://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?tpId=13&tqId=11196&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/43-左旋转字符串.md)|
 | 44 | [翻转单词顺序列](https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?tpId=13&tqId=11197&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/44-翻转单词顺序列.md)|
 | 45 | [扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&tqId=11198&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/45-扑克牌顺子.md)|
@@ -95,7 +98,7 @@
 | 59 | [按之字形顺序打印二叉树](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/59-按之字形顺序打印二叉树.md)|
 | 60 | [把二叉树打印成多行](https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288?tpId=13&tqId=11213&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/60-把二叉树打印成多行.md)|
 | 61 | [序列化二叉树](https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84?tpId=13&tqId=11214&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/61-序列化二叉树.md)|
-| 62 | [二叉搜索树的第k个结点](https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a?tpId=13&tqId=11215&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/62-二叉搜索树的第k个结点.md)|
+| 62 | [二叉搜索树的第 K 个结点](https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a?tpId=13&tqId=11215&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/62-二叉搜索树的第k个结点.md)|
 | 63 | [数据流中的中位数](https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=13&tqId=11216&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/63-数据流中的中位数.md)|
 | 64 | [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&tqId=11217&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/64-滑动窗口的最大值.md)|
 | 65 | [矩阵中的路径](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/65-矩阵中的路径.md)|
