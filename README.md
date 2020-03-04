@@ -16,9 +16,11 @@
 | 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [C++](leetcode/0013-roman-to-integer.md) | Easy |
 | 14 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | [C++ Java](leetcode/0014-longest-common-prefix.md) | Easy |
 | 15 | [三数之和](https://leetcode-cn.com/problems/3sum) | [Java](leetcode/0015-3sum.md) | Medium |
+| 17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | [Java](leetcode/0017-letter-combinations-of-a-phone-number.md) | Medium |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C++](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium |
+| 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [Java](leetcode/0048-rotate-image.md) | Medium |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++](leetcode/0141-linked-list-cycle.md) | Easy |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++](leetcode/0142-linked-list-cycle-ii.md) | Medium |
@@ -28,6 +30,7 @@
 | 215 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [C++](leetcode/0225-implement-stack-using-queues.md) | Easy |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case/) | [C++](leetcode/0709-to-lower-case.md) | Easy |
+| 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001sorted-merge.md) | Easy |
 
 
