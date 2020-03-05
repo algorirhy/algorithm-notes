@@ -1,35 +1,8 @@
-# [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&tqId=11217&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+# [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 
 ### 方法一
 
 双端队列
-
-#### C++
-
-```c++
-class Solution {
-public:
-    vector<int> maxInWindows(const vector<int>& num, unsigned int size){
-        vector<int> res;
-        deque<int> dq;
-        for(unsigned int i = 0; i < num.size(); i++){
-            //保证队列首元素为当前窗口最大值下标
-            while(dq.size() && num[dq.back()] <= num[i])
-                dq.pop_back();
-            //队首元素坐标对应的num不在窗口中，需要弹出
-            while(dq.size() && i-dq.front()+1 > size)
-                dq.pop_front();
-            dq.push_back(i);
-            //当滑动窗口首地址i大于等于size时才开始写入窗口最大值
-            if(size && i+1 >= size)
-                res.push_back(num[dq.front()]);
-        }
-        return res;
-    }
-};
-```
-
-#### Java
 
 ```java
 class Solution {
@@ -60,7 +33,7 @@ class Solution {
 
 动态规划
 
-```Java
+```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int len = nums.length;
