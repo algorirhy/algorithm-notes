@@ -36,11 +36,13 @@
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [C++](leetcode/0225-implement-stack-using-queues.md) | Easy |
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | [Java](leetcode/0239-sliding-window-maximum.md) | Hard |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |
+| 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [C++](leetcode/0709-to-lower-case.md) | Easy |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |
-| 1001  | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001sorted-merge.md) | Easy |
+| lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |
+| lcof-57 | [和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | [Java](leetcode/lcof-57-he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.md) | Easy |
 
 
 
