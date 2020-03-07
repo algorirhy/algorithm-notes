@@ -18,7 +18,10 @@
 | 15 | [三数之和](https://leetcode-cn.com/problems/3sum) | [Java](leetcode/0015-3sum.md) | Medium |
 | 17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | [Java](leetcode/0017-letter-combinations-of-a-phone-number.md) | Medium |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | [Java](leetcode/0020-valid-parentheses.md) | Easy |
+| 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | [Java](leetcode/0021-merge-two-sorted-lists.md) | Easy |
+| 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [Java](leetcode/0024-swap-nodes-in-pairs.md) | Medium |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C++](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |
+| 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [Java](leetcode/0048-rotate-image.md) | Medium |
@@ -42,7 +45,8 @@
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |
-| lcof-57 | [和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | [Java](leetcode/lcof-57-he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.md) | Easy |
+| lcof-57 | [和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | [Java](leetcode/lcof-57-he-wei-sde-lian-xu-zheng-shu-xu-lie.md) | Easy |
+| lcof-59 | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof) | [Java](leetcode/lcof-59-dui-lie-de-zui-da-zhi.md) | Medium |
 
 
 
@@ -66,7 +70,7 @@
 | 13 | [调整数组顺序使奇数位于偶数前面](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/13-调整数组顺序使奇数位于偶数前面.md)|
 | 14 | [链表中倒数第 K 个节点](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/14-链表中倒数第k个节点.md)|
 | 15 | [反转链表](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?tpId=13&tqId=11168&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/15-反转链表.md)|
-| 16 | [合并两个排序的链表](https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=13&tqId=11169&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/16-合并两个排序的链表.md)|
+| 16 | [合并两个排序的链表](https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=13&tqId=11169&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++ & Java](coding-interviews/16-合并两个排序的链表.md)|
 | 17 | [树的子结构](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&tqId=11170&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/17-树的子结构.md)|
 | 18 | [二叉树的镜像](https://www.nowcoder.com/practice/564f4c26aa584921bc75623e48ca3011?tpId=13&tqId=11171&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/18-二叉树的镜像.md)|
 | 19 | [顺时针打印矩阵](https://www.nowcoder.com/practice/9b4c81a02cd34f76be2659fa0d54342a?tpId=13&tqId=11172&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/19-顺时针打印矩阵.md)|
@@ -91,7 +95,7 @@
 | 38 | [二叉树的深度](https://www.nowcoder.com/practice/435fb86331474282a3499955f0a41e8b?tpId=13&tqId=11191&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/38-二叉树的深度.md)|
 | 39 | [平衡二叉树](https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?tpId=13&tqId=11192&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/39-平衡二叉树.md)|
 | 40 | [数组中只出现一次的数字](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811?tpId=13&tqId=11193&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/40-数组中只出现一次的数字.md)|
-| 41 | [和为 S 的连续正数序列](https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?tpId=13&tqId=11194&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/41-和为S的连续正数序列.md)|
+| 41 | [和为 S 的连续正数序列](https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?tpId=13&tqId=11194&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++ & Java](coding-interviews/41-和为S的连续正数序列.md)|
 | 42 | [和为 S 的两个数字](https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b?tpId=13&tqId=11195&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/42-和为S的两个数字.md)|
 | 43 | [左旋转字符串](https://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?tpId=13&tqId=11196&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/43-左旋转字符串.md)|
 | 44 | [翻转单词顺序列](https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?tpId=13&tqId=11197&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/44-翻转单词顺序列.md)|
