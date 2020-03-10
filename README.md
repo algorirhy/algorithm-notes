@@ -17,14 +17,18 @@
 | 14 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | [C++ & Java](leetcode/0014-longest-common-prefix.md) | Easy |
 | 15 | [三数之和](https://leetcode-cn.com/problems/3sum) | [Java](leetcode/0015-3sum.md) | Medium |
 | 17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number) | [Java](leetcode/0017-letter-combinations-of-a-phone-number.md) | Medium |
+| 19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) | [Java](leetcode/0019-remove-nth-node-from-end-of-list.md) | Medium |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | [Java](leetcode/0020-valid-parentheses.md) | Easy |
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | [Java](leetcode/0021-merge-two-sorted-lists.md) | Easy |
+| 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [Java](leetcode/0022-generate-parentheses.md) | Medium |
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [Java](leetcode/0024-swap-nodes-in-pairs.md) | Medium |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C++](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy |
+| 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](leetcode/0031-next-permutation.md) | Medium |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [Java](leetcode/0048-rotate-image.md) | Medium |
+| 53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray) | [Java](leetcode/0053-maximum-subarray.md) | Easy |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one) | [Java](leetcode/0066-plus-one.md) | Easy |
 | 70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs) | [Java](leetcode/0070-climbing-stairs.md) | Easy |
 | 84 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | [Java](leetcode/0084-largest-rectangle-in-histogram.md) | Hard |
@@ -45,7 +49,9 @@
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [C++](leetcode/0225-implement-stack-using-queues.md) | Easy |
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | [Java](leetcode/0239-sliding-window-maximum.md) | Hard |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |
+| 300 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence) | [Java](leetcode/0300-longest-increasing-subsequence.md) | Medium |
 | 322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change) | [Java](leetcode/0322-coin-change.md) | Medium |
+| 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [C++](leetcode/0709-to-lower-case.md) | Easy |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |
