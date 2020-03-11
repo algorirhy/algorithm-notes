@@ -58,6 +58,8 @@
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
 | 1013 | [将数组分成和相等的三个部分](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum) | [Java](leetcode/1013-partition-array-into-three-parts-with-equal-sum.md) | Easy |
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |
+| 1114 | [按序打印](https://leetcode-cn.com/problems/print-in-order) | [Java](leetcode/1114-print-in-order.md) | Easy |
+| 1115 | [交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately) | [Java](leetcode/1115-print-foobar-alternately.md) | Medium |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |
 
 
