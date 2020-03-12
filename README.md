@@ -69,11 +69,11 @@
 
 |**#**|Title|**Solution**|**Difficulty**|
 | :---: | :---: | :---: | :---: |
-|3|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof)|[C++ & Java](coding-interviews/03-数组中重复的数字.md)||
-|4|[二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof)|[C++ & Java](coding-interviews/04-二维数组中的查找.md)||
-|5|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof)|[C++ & Java](coding-interviews/05-替换空格.md)||
-|6|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|[C++](coding-interviews/06-从尾到头打印链表.md)||
-|7|[重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof)|[C++](coding-interviews/07-重建二叉树.md)|                |
+|3|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof)|[Java](coding-interviews/03-数组中重复的数字.md)|Easy|
+|4|[二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof)|[Java](coding-interviews/04-二维数组中的查找.md)|Easy|
+|5|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof)|[Java](coding-interviews/05-替换空格.md)|Easy|
+|6|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|[C++ & Java](coding-interviews/06-从尾到头打印链表.md)|Easy|
+|7|[重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof)|[C++ & Java](coding-interviews/07-重建二叉树.md)| Medium |
 |9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)|[C++](coding-interviews/09-用两个栈实现队列.md)||
 |10-i|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof)|[C++](coding-interviews/10-i-斐波那契数列.md)||
 |10-ii|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)|[C++](coding-interviews/10-ii-青蛙跳台阶问题.md)||
