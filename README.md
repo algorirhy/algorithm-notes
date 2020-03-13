@@ -43,6 +43,7 @@
 | 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
 | 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | [Java](leetcode/0155-min-stack.md) | Easy |
+| 169 | [多数元素](https://leetcode-cn.com/problems/majority-element) | [Java](leetcode/0169-majority-element.md) | Easy |
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) | [Java](leetcode/0189-rotate-array.md) | Easy |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++](leetcode/0206-reverse-linked-list.md) | Easy |
 | 215 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
@@ -77,7 +78,7 @@
 |7|[重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof)|[C++ & Java](coding-interviews/07-重建二叉树.md)| Medium |
 |9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)|[Java](coding-interviews/09-用两个栈实现队列.md)|Easy|
 |10-i|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof)|[Java](coding-interviews/10-斐波那契数列.md)|Easy|
-|10-ii|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)|[Java](coding-interviews/10-i青蛙跳台阶问题.md)|Easy|
+|10-ii|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)|[Java](coding-interviews/10-青蛙跳台阶问题.md)|Easy|
 |11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[Java](coding-interviews/11-旋转数组的最小数字.md)|Easy|
 |12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[C++](coding-interviews/12-矩阵中的路径.md)|Medium|
 |13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)|[C++](coding-interviews/13-机器人的运动范围.md)||
