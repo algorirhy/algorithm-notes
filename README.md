@@ -75,11 +75,11 @@
 |5|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof)|[Java](coding-interviews/05-替换空格.md)|Easy|
 |6|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)|[C++ & Java](coding-interviews/06-从尾到头打印链表.md)|Easy|
 |7|[重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof)|[C++ & Java](coding-interviews/07-重建二叉树.md)| Medium |
-|9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)|[C++](coding-interviews/09-用两个栈实现队列.md)||
-|10-i|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof)|[C++](coding-interviews/10-i-斐波那契数列.md)||
-|10-ii|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)|[C++](coding-interviews/10-ii-青蛙跳台阶问题.md)||
-|11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[C++](coding-interviews/11-旋转数组的最小数字.md)||
-|12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[C++](coding-interviews/12-矩阵中的路径.md)||
+|9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)|[Java](coding-interviews/09-用两个栈实现队列.md)|Easy|
+|10-i|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof)|[Java](coding-interviews/10-斐波那契数列.md)|Easy|
+|10-ii|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)|[Java](coding-interviews/10-i青蛙跳台阶问题.md)|Easy|
+|11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[Java](coding-interviews/11-旋转数组的最小数字.md)|Easy|
+|12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[C++](coding-interviews/12-矩阵中的路径.md)|Medium|
 |13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)|[C++](coding-interviews/13-机器人的运动范围.md)||
 |14-i|[剪绳子 I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)|[C++](coding-interviews/14-i-剪绳子.md)||
 |14-ii|[剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof)|||
