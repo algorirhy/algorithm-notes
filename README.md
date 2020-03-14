@@ -43,6 +43,7 @@
 | 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
 | 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | [Java](leetcode/0155-min-stack.md) | Easy |
+| 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) | [java](leetcode/0165-compare-version-numbers.md) | Medium |
 | 169 | [多数元素](https://leetcode-cn.com/problems/majority-element) | [Java](leetcode/0169-majority-element.md) | Easy |
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) | [Java](leetcode/0189-rotate-array.md) | Easy |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++](leetcode/0206-reverse-linked-list.md) | Easy |
@@ -94,9 +95,9 @@
 |22|[链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)|[C++](coding-interviews/22-链表中倒数第k个节点.md)||
 |24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)|[C++](coding-interviews/24-反转链表.md)||
 |25|[合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)|[C++ & Java](coding-interviews/25-合并两个排序的链表.md)||
-|26|[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof)|[C++](coding-interviews/26-树的子结构.md)||
-|27|[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof)|[C++](coding-interviews/27-二叉树的镜像.md)||
-|28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof)|[C++](coding-interviews/28-对称的二叉树.md)||
+|26|[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof)|[Java](coding-interviews/26-树的子结构.md)|Medium|
+|27|[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof)|[Java](coding-interviews/27-二叉树的镜像.md)|Easy|
+|28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof)|[Java](coding-interviews/28-对称的二叉树.md)|Easy|
 |29|[顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof)|[C++](coding-interviews/29-顺时针打印矩阵.md)||
 |30|[包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof)|[C++ & Java](coding-interviews/30-包含min函数的栈.md)||
 |31|[栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof)|[C++](coding-interviews/31-栈的压入、弹出序列.md)||
@@ -144,8 +145,8 @@
 |65|[不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof)|[C++](coding-interviews/65-不用加减乘除做加法.md)||
 |66|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof)|[C++](coding-interviews/66-构建乘积数组.md)||
 |67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof)|||
-|68-i|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)|||
-|68-ii|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof)|||
+|68-i|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)|[Java](coding-interviews/68-二叉搜索树的最近公共祖先.md)|Easy|
+|68-ii|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof)|[Java](coding-interviews/68-二叉树的最近公共祖先.md)|Easy|
 |  | [变态跳台阶](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?tpId=13&tqId=11161&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/变态跳台阶.md)||
 |  | [矩形覆盖](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?tpId=13&tqId=11163&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/矩形覆盖.md)||
 |  | [整数中1出现的次数](https://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6?tpId=13&tqId=11184&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/整数中1出现的次数.md)||
