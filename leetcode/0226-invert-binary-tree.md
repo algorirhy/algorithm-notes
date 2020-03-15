@@ -1,32 +1,26 @@
-# [二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+# [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 
 ### 方法一
 
-递归
-
 ```java
 class Solution {
-    public TreeNode mirrorTree(TreeNode root) {
+    public TreeNode invertTree(TreeNode root) {
         if (root == null) return null;
         TreeNode tmp = root.left;
         root.left = root.right;
         root.right = tmp;
-        mirrorTree(root.left);
-        mirrorTree(root.right);
+        invertTree(root.left);
+        invertTree(root.right);
         return root;
     }
 }
 ```
 
-
-
 ### 方法二
-
-深度优先搜索
 
 ```java
 class Solution {
-    public TreeNode mirrorTree(TreeNode root) {
+    public TreeNode invertTree(TreeNode root) {
         if (root == null) return null;
         Deque<TreeNode> stack = new ArrayDeque<>();
         stack.push(root);
@@ -47,11 +41,9 @@ class Solution {
 
 ### 方法三
 
-广度优先搜索
-
 ```java
 class Solution {
-    public TreeNode mirrorTree(TreeNode root) {
+    public TreeNode invertTree(TreeNode root) {
         if (root == null) return null;
         Deque<TreeNode> queue = new ArrayDeque<>();
         queue.add(root);
