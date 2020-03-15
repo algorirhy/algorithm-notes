@@ -35,7 +35,9 @@
 | 88 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) | [Java](leetcode/0088-merge-sorted-array.md) | Easy |
 | 93 | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses) | [Java](leetcode/0093-restore-ip-addresses.md) | Medium |
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | [Java](leetcode/0094-binary-tree-inorder-traversal.md) | Medium |
+| 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [Java](leetcode/0098-validate-binary-search-tree.md) | Medium |
 | 102 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | [Java](leetcode/0102-binary-tree-level-order-traversal.md) | Medium |
+| 103 | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal) | [Java](leetcode/0103-binary-tree-zigzag-level-order-traversal.md) | Medium |
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | [Java](leetcode/0121-best-time-to-buy-and-sell-stock.md) | Easy |
 | 134 | [加油站](https://leetcode-cn.com/problems/gas-station) | [Java](leetcode/0134-gas-station.md) | Medium |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
@@ -59,7 +61,7 @@
 | 322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change) | [Java](leetcode/0322-coin-change.md) | Medium |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |
-| 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) |  | Medium |
+| 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) | [Java](leetcode/0695-max-area-of-island.md) | Medium |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [C++](leetcode/0709-to-lower-case.md) | Easy |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
@@ -131,7 +133,7 @@
 |52|[两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof)|[C++](coding-interviews/52-两个链表的第一个公共节点.md)||
 |53-i|[在排序数组中查找数字](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof)|||
 |53-ii|[0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof)|||
-|54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)|[C++](coding-interviews/54-二叉搜索树的第k个结点.md)||
+|54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)|[Java](coding-interviews/54-二叉搜索树的第k个结点.md)|Easy|
 |55-i|[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof)|[C++](coding-interviews/55-i-二叉树的深度.md)||
 |55-ii|[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof)|[C++](coding-interviews/55-ii-平衡二叉树.md)||
 |56-i|[数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof)|||
@@ -165,9 +167,6 @@
 |  | [链表中环的入口结点](https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?tpId=13&tqId=11208&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/链表中环的入口结点.md)||
 |  | [删除链表中重复的结点](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/删除链表中重复的结点.md)||
 |  | [二叉树的下一个结点](https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?tpId=13&tqId=11210&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/二叉树的下一个结点.md)||
-|  | [按之字形顺序打印二叉树](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/按之字形顺序打印二叉树.md)||
-|  | [把二叉树打印成多行](https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288?tpId=13&tqId=11213&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/把二叉树打印成多行.md)||
-|  | [二叉搜索树的第k个结点](https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a?tpId=13&tqId=11215&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/二叉搜索树的第k个结点.md)||
 
 
 ### PAT
