@@ -34,12 +34,16 @@
 | 84 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | [Java](leetcode/0084-largest-rectangle-in-histogram.md) | Hard |
 | 88 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) | [Java](leetcode/0088-merge-sorted-array.md) | Easy |
 | 93 | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses) | [Java](leetcode/0093-restore-ip-addresses.md) | Medium |
+| 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | [Java](leetcode/0094-binary-tree-inorder-traversal.md) | Medium |
+| 102 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | [Java](leetcode/0102-binary-tree-level-order-traversal.md) | Medium |
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | [Java](leetcode/0121-best-time-to-buy-and-sell-stock.md) | Easy |
 | 134 | [加油站](https://leetcode-cn.com/problems/gas-station) | [Java](leetcode/0134-gas-station.md) | Medium |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
 | 139 | [单词拆分](https://leetcode-cn.com/problems/word-break) | [Java](leetcode/0139-word-break.md) | Medium |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++](leetcode/0141-linked-list-cycle.md) | Easy |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++](leetcode/0142-linked-list-cycle-ii.md) | Medium |
+| 144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) | [Java](leetcode/0144-binary-tree-preorder-traversal.md) | Medium |
+| 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) | [Java](leetcode/0145-binary-tree-postorder-traversal.md) | Hard |
 | 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
 | 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | [Java](leetcode/0155-min-stack.md) | Easy |
@@ -55,6 +59,7 @@
 | 322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change) | [Java](leetcode/0322-coin-change.md) | Medium |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |
+| 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) |  | Medium |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [C++](leetcode/0709-to-lower-case.md) | Easy |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
