@@ -1,0 +1,44 @@
+# [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+
+### 方法一
+
+```java
+class Solution {
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) return true;
+        return cmpTree(root.left, root.right);
+    }
+
+    private boolean cmpTree(TreeNode left, TreeNode right) {
+        if (left == null && right == null) return true;
+        if (left == null || right == null || left.val != right.val) return false;
+        return cmpTree(left.left, right.right) && cmpTree(left.right, right.left);
+    }
+}
+```
+
+### 方法二
+
+```java
+class Solution {
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) return true;
+        //ArrayDeque无法添加null
+        Deque<TreeNode> queue = new LinkedList<>();
+        queue.add(root.left);
+        queue.add(root.right);
+        while (!queue.isEmpty()) {
+            TreeNode left = queue.remove();
+            TreeNode right = queue.remove();
+            if (left == null && right == null) continue;
+            if (left == null || right == null || left.val != right.val) return false;
+            queue.add(left.left);
+            queue.add(right.right);
+            queue.add(left.right);
+            queue.add(right.left);
+        }
+        return true;
+    }
+}
+```
+
