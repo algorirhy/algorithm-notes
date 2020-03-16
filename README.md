@@ -79,6 +79,7 @@
 | 1114 | [按序打印](https://leetcode-cn.com/problems/print-in-order) | [Java](leetcode/1114-print-in-order.md) | Easy |
 | 1115 | [交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately) | [Java](leetcode/1115-print-foobar-alternately.md) | Medium |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |
+| lcci-1006 | [字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci) | [Java](leetcode/lcci-1006-compress-string.md) | Easy |
 
 
 
