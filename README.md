@@ -57,15 +57,18 @@
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) | [java](leetcode/0165-compare-version-numbers.md) | Medium |
 | 169 | [多数元素](https://leetcode-cn.com/problems/majority-element) | [Java](leetcode/0169-majority-element.md) | Easy |
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) | [Java](leetcode/0189-rotate-array.md) | Easy |
+| 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands) | [Java](leetcode/0200-number-of-islands.md) | Medium |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++](leetcode/0206-reverse-linked-list.md) | Easy |
 | 215 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [C++](leetcode/0225-implement-stack-using-queues.md) | Easy |
 | 226 | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree) | [Java](leetcode/0226-invert-binary-tree.md) | Easy |
+| 234 | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list) | [Java](leetcode/0234-palindrome-linked-list.md) | Easy |
 | 236 | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | [Java](leetcode/0236-lowest-common-ancestor-of-a-binary-tree.md) | Medium |
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | [Java](leetcode/0239-sliding-window-maximum.md) | Hard |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |
 | 300 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence) | [Java](leetcode/0300-longest-increasing-subsequence.md) | Medium |
 | 322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change) | [Java](leetcode/0322-coin-change.md) | Medium |
+| 338 | [比特位计数](https://leetcode-cn.com/problems/counting-bits) | [Java](leetcode/0338-counting-bits.md) | Medium |
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements) | [Java](leetcode/0347-top-k-frequent-elements.md) | Medium |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |
@@ -78,6 +81,7 @@
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |
 | 1114 | [按序打印](https://leetcode-cn.com/problems/print-in-order) | [Java](leetcode/1114-print-in-order.md) | Easy |
 | 1115 | [交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately) | [Java](leetcode/1115-print-foobar-alternately.md) | Medium |
+| 1160 | [拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters) | [Java](leetcode/1160-find-words-that-can-be-formed-by-characters.md) | Easy |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |
 | lcci-1006 | [字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci) | [Java](leetcode/lcci-1006-compress-string.md) | Easy |
 
@@ -132,7 +136,7 @@
 |42|[连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof)|[C++](coding-interviews/42-连续子数组的最大和.md)||
 |43|[1～n整数中1出现的次数](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof)|||
 |44|[数字序列中某一位的数字](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof)|||
-|45|[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)|||
+|45|[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)|[Java](coding-interviews/45-把数组排成最小的数.md)|Medium|
 |46|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof)|||
 |47|[礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof)|||
 |48|[最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof)|||
@@ -154,7 +158,7 @@
 |59-i|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)|[C++ & Java](coding-interviews/59-i-滑动窗口的最大值.md)||
 |59-ii|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)|[Java](coding-interviews/59-ii-队列的最大值.md)||
 |60|[n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof)|||
-|61|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof)|[C++](coding-interviews/61-扑克牌中的顺子.md)||
+|61|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof)|[Java](coding-interviews/61-扑克牌中的顺子.md)|Easy|
 |62|[圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof)|||
 |63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof)|||
 |64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof)|[C++](coding-interviews/64-求1+2+3+...+n.md)||
