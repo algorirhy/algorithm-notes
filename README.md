@@ -24,11 +24,13 @@
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [Java](leetcode/0024-swap-nodes-in-pairs.md) | Medium |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C++](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy |
+| 27 | [移除元素](https://leetcode-cn.com/problems/remove-element) | [Java](leetcode/0027-remove-element.md) | Easy |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](leetcode/0031-next-permutation.md) | Medium |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [Java](leetcode/0048-rotate-image.md) | Medium |
 | 53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray) | [Java](leetcode/0053-maximum-subarray.md) | Easy |
+| 56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](leetcode/0056-merge-intervals.md) | Medium |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one) | [Java](leetcode/0066-plus-one.md) | Easy |
 | 70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs) | [Java](leetcode/0070-climbing-stairs.md) | Easy |
 | 79 | [单词搜索](https://leetcode-cn.com/problems/word-search) | [Java](leetcode/0079-word-search.md) | Medium |
@@ -57,6 +59,7 @@
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) | [java](leetcode/0165-compare-version-numbers.md) | Medium |
 | 169 | [多数元素](https://leetcode-cn.com/problems/majority-element) | [Java](leetcode/0169-majority-element.md) | Easy |
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) | [Java](leetcode/0189-rotate-array.md) | Easy |
+| 198 | [打家劫舍](https://leetcode-cn.com/problems/house-robber) | [Java](leetcode/0198-house-robber.md) | Easy |
 | 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands) | [Java](leetcode/0200-number-of-islands.md) | Medium |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++](leetcode/0206-reverse-linked-list.md) | Easy |
 | 215 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [C++](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
