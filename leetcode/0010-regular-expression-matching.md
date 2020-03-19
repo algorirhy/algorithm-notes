@@ -1,36 +1,4 @@
-# [正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)
-
-### C++
-
-牛客:[正则表达式匹配](https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?tpId=13&tqId=11205&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
-
-```c++
-class Solution {
-public:
-    bool match(char* str, char* pattern){
-        if(*str == '\0' && *pattern == '\0')
-            return true;
-        if(*str != '\0' && *pattern == '\0')
-            return false;
-        if(*(pattern+1) != '*'){
-            if(*str == *pattern || (*str != '\0' && *pattern == '.'))
-                return match(str+1, pattern+1);
-            else
-                return false;
-        }else{
-            if(*str == *pattern || (*str != '\0' && *pattern == '.')){
-                //*匹配零个或者多个
-                return match(str, pattern+2) || match(str+1, pattern);
-            }else{
-                //*不匹配
-                return match(str, pattern+2);
-            }
-        }
-    }
-};
-```
-
-### Java
+# [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)
 
 ```java
 class Solution {
@@ -72,6 +40,4 @@ class Solution {
     }
 }
 ```
-
-
 
