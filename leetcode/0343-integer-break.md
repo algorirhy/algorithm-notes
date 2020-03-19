@@ -1,12 +1,8 @@
-# [剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)
+# [整数拆分](https://leetcode-cn.com/problems/integer-break)
 
 ### 方法一
 
 贪心
-
-* 最高优先级：3，把绳子尽可能切为多个长度为 3 的片段，剩下的绳子的长度可能为 0,1,2 三种情况。
-* 次高优先级：2，若最后一段绳子长度为 2，则保留，不再拆为 1+1。
-* 最低优先级：1，若最后一段绳子长度为 1，则应把最后的 3 + 1 替换为 2 + 2，因为 2×2 > 3×1。
 
 ```c++
 class Solution {

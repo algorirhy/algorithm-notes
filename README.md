@@ -74,6 +74,7 @@
 | 300 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence) | [Java](leetcode/0300-longest-increasing-subsequence.md) | Medium |
 | 322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change) | [Java](leetcode/0322-coin-change.md) | Medium |
 | 338 | [比特位计数](https://leetcode-cn.com/problems/counting-bits) | [Java](leetcode/0338-counting-bits.md) | Medium |
+| 343 | [整数拆分](https://leetcode-cn.com/problems/integer-break) | [Java](leetcode/0343-integer-break.md) | Medium |
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements) | [Java](leetcode/0347-top-k-frequent-elements.md) | Medium |
 | 409 | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome) | [Java](leetcode/0409-longest-palindrome.md) | Easy |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |
@@ -107,10 +108,10 @@
 |10-i|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof)|[Java](coding-interviews/10-斐波那契数列.md)|Easy|
 |10-ii|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)|[Java](coding-interviews/10-青蛙跳台阶问题.md)|Easy|
 |11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[Java](coding-interviews/11-旋转数组的最小数字.md)|Easy|
-|12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[C++](coding-interviews/12-矩阵中的路径.md)|Medium|
-|13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)|[C++](coding-interviews/13-机器人的运动范围.md)||
-|14-i|[剪绳子 I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)|[C++](coding-interviews/14-i-剪绳子.md)||
-|14-ii|[剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof)|||
+|12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[Java](coding-interviews/12-矩阵中的路径.md)|Medium|
+|13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)|[Java](coding-interviews/13-机器人的运动范围.md)|Medium|
+|14-i|[剪绳子 I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)|[Java](coding-interviews/14-剪绳子 I.md)|Medium|
+|14-ii|[剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof)|[Java](coding-interviews/14-剪绳子 II.md)|Medium|
 |15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[C++](coding-interviews/15-二进制中1的个数.md)||
 |16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)|[C++](coding-interviews/16-数值的整数次方.md)||
 |17|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)|||
