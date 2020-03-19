@@ -45,6 +45,7 @@
 | 102 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | [Java](leetcode/0102-binary-tree-level-order-traversal.md) | Medium |
 | 103 | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal) | [Java](leetcode/0103-binary-tree-zigzag-level-order-traversal.md) | Medium |
 | 104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | [Java](leetcode/0104-maximum-depth-of-binary-tree.md) | Easy |
+| 105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [Java](leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal.md) | Medium |
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | [Java](leetcode/0121-best-time-to-buy-and-sell-stock.md) | Easy |
 | 130 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions) | [Java](leetcode/0130-surrounded-regions.md) | Medium |
 | 134 | [加油站](https://leetcode-cn.com/problems/gas-station) | [Java](leetcode/0134-gas-station.md) | Medium |
@@ -56,6 +57,7 @@
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) | [Java](leetcode/0145-binary-tree-postorder-traversal.md) | Hard |
 | 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
+| 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii) | [Java](leetcode/0154-find-minimum-in-rotated-sorted-array-ii.md) | Hard |
 | 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | [Java](leetcode/0155-min-stack.md) | Easy |
 | 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | [Java](leetcode/0160-intersection-of-two-linked-lists.md) | Easy |
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) | [java](leetcode/0165-compare-version-numbers.md) | Medium |
@@ -70,6 +72,7 @@
 | 234 | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list) | [Java](leetcode/0234-palindrome-linked-list.md) | Easy |
 | 236 | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | [Java](leetcode/0236-lowest-common-ancestor-of-a-binary-tree.md) | Medium |
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | [Java](leetcode/0239-sliding-window-maximum.md) | Hard |
+| 240 | [搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii) | [Java](leetcode/0240-search-a-2d-matrix-ii.md) | Medium |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |
 | 300 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence) | [Java](leetcode/0300-longest-increasing-subsequence.md) | Medium |
 | 322 | [零钱兑换](https://leetcode-cn.com/problems/coin-change) | [Java](leetcode/0322-coin-change.md) | Medium |
@@ -77,6 +80,7 @@
 | 343 | [整数拆分](https://leetcode-cn.com/problems/integer-break) | [Java](leetcode/0343-integer-break.md) | Medium |
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements) | [Java](leetcode/0347-top-k-frequent-elements.md) | Medium |
 | 409 | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome) | [Java](leetcode/0409-longest-palindrome.md) | Easy |
+| 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Java](leetcode/0509-fibonacci-number.md) | Easy |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) | [Java](leetcode/0695-max-area-of-island.md) | Medium |
@@ -110,7 +114,7 @@
 |11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[Java](coding-interviews/11-旋转数组的最小数字.md)|Easy|
 |12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[Java](coding-interviews/12-矩阵中的路径.md)|Medium|
 |13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)|[Java](coding-interviews/13-机器人的运动范围.md)|Medium|
-|14-i|[剪绳子 I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)|[Java](coding-interviews/14-剪绳子 I.md)|Medium|
+|14-i|[剪绳子 I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)|[Java](coding-interviews/14-剪绳子-I.md)|Medium|
 |14-ii|[剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof)|[Java](coding-interviews/14-剪绳子 II.md)|Medium|
 |15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[C++](coding-interviews/15-二进制中1的个数.md)||
 |16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)|[C++](coding-interviews/16-数值的整数次方.md)||
