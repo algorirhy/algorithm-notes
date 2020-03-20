@@ -29,10 +29,13 @@
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](leetcode/0031-next-permutation.md) | Medium |
 | 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](leetcode/0034-find-first-and-last-position-of-element-in-sorted-array.md) | Medium |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
+| 43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [Java](leetcode/0043-multiply-strings.md) | Medium |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [Java](leetcode/0048-rotate-image.md) | Medium |
+| 50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | [Java](leetcode/0050-powx-n.md) | Medium |
 | 53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray) | [Java](leetcode/0053-maximum-subarray.md) | Easy |
 | 56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](leetcode/0056-merge-intervals.md) | Medium |
+| 65 | [有效数字](https://leetcode-cn.com/problems/valid-number) | [Java](leetcode/0061-valid-number.md) | Hard |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one) | [Java](leetcode/0066-plus-one.md) | Easy |
 | 70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs) | [Java](leetcode/0070-climbing-stairs.md) | Easy |
 | 79 | [单词搜索](https://leetcode-cn.com/problems/word-search) | [Java](leetcode/0079-word-search.md) | Medium |
@@ -63,6 +66,7 @@
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) | [java](leetcode/0165-compare-version-numbers.md) | Medium |
 | 169 | [多数元素](https://leetcode-cn.com/problems/majority-element) | [Java](leetcode/0169-majority-element.md) | Easy |
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) | [Java](leetcode/0189-rotate-array.md) | Easy |
+| 191 | [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits) | [Java](leetcode/0191-number-of-1-bits.md) | Easy |
 | 198 | [打家劫舍](https://leetcode-cn.com/problems/house-robber) | [Java](leetcode/0198-house-robber.md) | Easy |
 | 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands) | [Java](leetcode/0200-number-of-islands.md) | Medium |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++](leetcode/0206-reverse-linked-list.md) | Easy |
@@ -115,13 +119,13 @@
 |12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[Java](coding-interviews/12-矩阵中的路径.md)|Medium|
 |13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)|[Java](coding-interviews/13-机器人的运动范围.md)|Medium|
 |14-i|[剪绳子 I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)|[Java](coding-interviews/14-剪绳子-I.md)|Medium|
-|14-ii|[剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof)|[Java](coding-interviews/14-剪绳子 II.md)|Medium|
-|15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[C++](coding-interviews/15-二进制中1的个数.md)||
-|16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)|[C++](coding-interviews/16-数值的整数次方.md)||
-|17|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)|||
-|18|[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof)|||
+|14-ii|[剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof)|[Java](coding-interviews/14-剪绳子-II.md)|Medium|
+|15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[Java](coding-interviews/15-二进制中1的个数.md)|Easy|
+|16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)|[Java](coding-interviews/16-数值的整数次方.md)|Medium|
+|17|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)|[Java](coding-interviews/17-打印从1到最大的n位数.md)|Easy|
+|18|[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof)|[Java](coding-interviews/18-删除链表的节点.md)|Easy|
 |19|[正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof)|[C++ & Java](coding-interviews/19-正则表达式匹配.md)|Hard|
-|20|[表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)|||
+|20|[表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)|[Java](coding-interviews/20-表示数值的字符串.md)|Medium|
 |21|[调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)|[C++](coding-interviews/21-调整数组顺序使奇数位于偶数前面.md)||
 |22|[链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)|[C++](coding-interviews/22-链表中倒数第k个节点.md)||
 |24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)|[C++](coding-interviews/24-反转链表.md)||
@@ -186,7 +190,6 @@
 |  | [数组中只出现一次的数字](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811?tpId=13&tqId=11193&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/数组中只出现一次的数字.md)||
 |  | [孩子们的游戏](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?tpId=13&tqId=11199&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/孩子们的游戏.md)||
 |  | [把字符串转换成整数](https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/把字符串转换成整数.md)||
-|  | [表示数值的字符串](https://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2?tpId=13&tqId=11206&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/表示数值的字符串.md)||
 |  | [字符流中第一个不重复的字符](https://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720?tpId=13&tqId=11207&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/字符流中第一个不重复的字符.md)||
 |  | [链表中环的入口结点](https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?tpId=13&tqId=11208&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/链表中环的入口结点.md)||
 |  | [删除链表中重复的结点](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[C++](coding-interviews/删除链表中重复的结点.md)||

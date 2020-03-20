@@ -1,4 +1,4 @@
-# [数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)
+# [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
 
 快速幂
 
