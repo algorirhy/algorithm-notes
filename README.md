@@ -58,7 +58,7 @@
 | 130 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions) | [Java](leetcode/0130-surrounded-regions.md) | Medium |
 | 134 | [加油站](https://leetcode-cn.com/problems/gas-station) | [Java](leetcode/0134-gas-station.md) | Medium |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
-| 138 | [复制带随机指针的链表](https://leetcode-cn.com/classic/problems/copy-list-with-random-pointer) | [Java](leetcode/0138-copy-list-with-random-pointe.md) | Medium |
+| 138 | [复制带随机指针的链表](https://leetcode-cn.com/classic/problems/copy-list-with-random-pointer) | [Java](leetcode/0138-copy-list-with-random-pointer.md) | Medium |
 | 139 | [单词拆分](https://leetcode-cn.com/problems/word-break) | [Java](leetcode/0139-word-break.md) | Medium |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++](leetcode/0141-linked-list-cycle.md) | Easy |
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++](leetcode/0142-linked-list-cycle-ii.md) | Medium |
@@ -144,9 +144,9 @@
 |29|[顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof)|[Java](coding-interviews/29-顺时针打印矩阵.md)|Easy|
 |30|[包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof)|[Java](coding-interviews/30-包含min函数的栈.md)|Easy|
 |31|[栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof)|[Java](coding-interviews/31-栈的压入、弹出序列.md)|Medium|
-|32-i|[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof)|[Java](coding-interviews/32-从上往下打印二叉树.md)|Medium|
-|32-ii|[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof)|[Java](coding-interviews/32-从上往下打印二叉树-II.md)|Easy|
-|32-iii|[从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof)|[Java](coding-interviews/32-从上往下打印二叉树-III.md)|Medium|
+|32-i|[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof)|[Java](coding-interviews/从上到下打印二叉树-I.md)|Medium|
+|32-ii|[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof)|[Java](coding-interviews/从上到下打印二叉树-II.md)|Easy|
+|32-iii|[从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof)|[Java](coding-interviews/从上到下打印二叉树-III.md)|Medium|
 |33|[二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof)|[Java](coding-interviews/33-二叉搜索树的后序遍历序列.md)|Medium|
 |34|[二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof)|[Java](coding-interviews/34-二叉树中和为某一值的路径.md)|Medium|
 |35|[复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof)|[Java](coding-interviews/35-复杂链表的复制.md)|Medium|
