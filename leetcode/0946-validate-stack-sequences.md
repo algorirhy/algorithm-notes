@@ -1,4 +1,4 @@
-# [栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
+# [验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
 
 ```java
 class Solution {
@@ -15,3 +15,4 @@ class Solution {
     }
 }
 ```
+

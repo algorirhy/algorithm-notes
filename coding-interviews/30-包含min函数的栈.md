@@ -1,70 +1,36 @@
-# [包含min函数的栈](https://www.nowcoder.com/practice/4c776177d2c04c2494f2555c9fcc1e49?tpId=13&tqId=11173&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)
-
-### C++
-
-```c++
-class Solution {
-public:
-    void push(int value) {
-        dataStack.push(value);
-        if(minStack.empty()){
-            minStack.push(value);
-        }else if(value <= minStack.top()){
-            minStack.push(value);
-        }
-    }
-    void pop() {
-        if(dataStack.top() == minStack.top()){
-            minStack.pop();
-        }
-        dataStack.pop();
-    }
-    int top() {
-        return dataStack.top();
-    }
-    int min() {
-        return minStack.top();
-    }
-
-private:
-    stack<int> dataStack, minStack;
-};
-```
-
-#### Java
+# [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)
 
 ```java
-class MinStack {
-
-    private LinkedList<Integer> dataStack, minStack;
+class MinStack {    
+    private Deque<Integer> dataStack, minStack;
 
     public MinStack() {
-        dataStack = new LinkedList<>();
-        minStack = new LinkedList<>();
+        dataStack = new ArrayDeque<>();
+        minStack = new ArrayDeque<>();
     }
     
     public void push(int x) {
-        dataStack.addFirst(x);
-        if (minStack.isEmpty() || minStack.peekFirst() >= x) {
-            minStack.addFirst(x);
-        } 
+        dataStack.push(x);
+        if (minStack.isEmpty() || x <= minStack.peek()) {
+            minStack.push(x);
+        }
     }
     
     public void pop() {
-        //使用 == 报错
-        if(dataStack.peekFirst().equals(minStack.peekFirst())){
-            minStack.removeFirst();
+        dataStack.pop();
+        if (minStack.peek().equals(dataStack.peek())) {
+            minStack.pop();
         }
-        dataStack.removeFirst();
     }
     
     public int top() {
-        return dataStack.peekFirst();
+        return dataStack.peek();
     }
     
-    public int getMin() {
-        return minStack.peekFirst();
+    public int min() {
+        return minStack.peek();
     }
 }
+
 ```
 
