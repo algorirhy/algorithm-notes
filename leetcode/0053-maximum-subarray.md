@@ -22,17 +22,12 @@ class Solution {
 ```java
 class Solution {
     public int maxSubArray(int[] nums) {
-        int max = nums[0];
-        int sum = 0;
-        for (int num : nums) {
-            if (sum > 0) {
-                sum += num;
-            } else {
-                sum = num;
-            }
-            max = Math.max(max, sum);
+        int res = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += Math.max(nums[i - 1], 0);
+            res = Math.max(nums[i], res);
         }
-        return max;
+        return res;
     }
 }
 ```

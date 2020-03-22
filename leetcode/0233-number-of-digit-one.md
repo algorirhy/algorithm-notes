@@ -1,4 +1,4 @@
-# [1～n整数中1出现的次数](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/)
+# [数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/)
 
 数学问题，参考牛客讨论区用户[@Duqcuid](https://www.nowcoder.com/questionTerminal/bd7f978302044eee894445e244c7eee6?f=discussion)
 
@@ -15,4 +15,3 @@ class Solution {
     }
 }
 ```
-
