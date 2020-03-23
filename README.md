@@ -6,7 +6,7 @@
 | :---: | :---: | :---: | :---: |
 | 1 | [两数之和](https://leetcode-cn.com/problems/two-sum) | [C++](leetcode/0001-two-sum.md) | Easy |
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [C++](leetcode/0002-add-two-numbers.md) | Medium |
-| 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [C++](leetcode/0003-longest-substring-without-repeating-characters.md) | Medium |
+| 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](leetcode/0003-longest-substring-without-repeating-characters.md) | Medium |
 | 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) | [C++](leetcode/0005-longest-palindromic-substring.md) | Medium |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C++](leetcode/0007-reverse-integer.md) | Easy |
 | 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C++](leetcode/0008-string-to-integer-atoi.md) | Medium |
@@ -57,7 +57,8 @@
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | [Java](leetcode/0121-best-time-to-buy-and-sell-stock.md) | Easy |
 | 130 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions) | [Java](leetcode/0130-surrounded-regions.md) | Medium |
 | 134 | [加油站](https://leetcode-cn.com/problems/gas-station) | [Java](leetcode/0134-gas-station.md) | Medium |
-| 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [C++](leetcode/0136-single-number.md) | Easy |
+| 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [Java](leetcode/0136-single-number.md) | Easy |
+| 137 | [只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii) | [Java](leetcode/0137-single-number-ii.md) | Medium |
 | 138 | [复制带随机指针的链表](https://leetcode-cn.com/classic/problems/copy-list-with-random-pointer) | [Java](leetcode/0138-copy-list-with-random-pointer.md) | Medium |
 | 139 | [单词拆分](https://leetcode-cn.com/problems/word-break) | [Java](leetcode/0139-word-break.md) | Medium |
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++](leetcode/0141-linked-list-cycle.md) | Easy |
@@ -84,6 +85,9 @@
 | 236 | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) | [Java](leetcode/0236-lowest-common-ancestor-of-a-binary-tree.md) | Medium |
 | 239 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | [Java](leetcode/0239-sliding-window-maximum.md) | Hard |
 | 240 | [搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii) | [Java](leetcode/0240-search-a-2d-matrix-ii.md) | Medium |
+| 260 | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) | [Java](leetcode/0260-single-number-iii.md) | Medium |
+| 263 | [丑数](https://leetcode-cn.com/problems/ugly-number) | [Java](leetcode/0263-ugly-number.md) | Easy |
+| 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | [Java](leetcode/0264-ugly-number-ii.md) | Medium |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |
 | 295 | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) | [Java](leetcode/0295-find-median-from-data-stream.md) | Hard |
 | 297 | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) | [Java](leetcode/0297-serialize-and-deserialize-binary-tree.md) | Hard |
@@ -101,6 +105,7 @@
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) | [Java](leetcode/0695-max-area-of-island.md) | Medium |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [C++](leetcode/0709-to-lower-case.md) | Easy |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |
+| 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |
 | 945 | [使数组唯一的最小增量](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique) | [Java](leetcode/0945-minimum-increment-to-make-array-unique.md) | Medium |
 | 946 | [验证栈序列](https://leetcode-cn.com/classic/problems/validate-stack-sequences) | [Java](leetcode/0946-validate-stack-sequences.md) | Medium |
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
@@ -167,20 +172,20 @@
 |45|[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)|[Java](coding-interviews/45-把数组排成最小的数.md)|Medium|
 |46|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof)|[Java](coding-interviews/46-把数字翻译成字符串.md)|Medium|
 |47|[礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof)|[Java](coding-interviews/47-礼物的最大价值.md)|Medium|
-|48|[最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof)|||
-|49|[丑数](https://leetcode-cn.com/problems/chou-shu-lcof)|[C++](coding-interviews/49-丑数.md)||
-|50|[第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof)|[C++](coding-interviews/50-第一个只出现一次的字符位置.md)||
-|51|[数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof)|[C++](coding-interviews/51-数组中的逆序对.md)||
-|52|[两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof)|[C++](coding-interviews/52-两个链表的第一个公共节点.md)||
-|53-i|[在排序数组中查找数字](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof)|||
-|53-ii|[0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof)|||
+|48|[最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof)|[Java](coding-interviews/48-最长不含重复字符的子字符串.md)|Medium|
+|49|[丑数](https://leetcode-cn.com/problems/chou-shu-lcof)|[Java](coding-interviews/49-丑数.md)|Medium|
+|50|[第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof)|[Java](coding-interviews/50-第一个只出现一次的字符位置.md)|Easy|
+|51|[数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof)|[Java](coding-interviews/51-数组中的逆序对.md)|Hard|
+|52|[两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof)|[Java](coding-interviews/52-两个链表的第一个公共节点.md)|Easy|
+|53-i|[在排序数组中查找数字](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof)|[Java](coding-interviews/53-在排序数组中查找数字.md)|Easy|
+|53-ii|[0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof)|[Java](coding-interviews/53-0～n-1中缺失的数字.md)|Easy|
 |54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)|[Java](coding-interviews/54-二叉搜索树的第k个结点.md)|Easy|
 |55-i|[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof)|[Java](coding-interviews/55-二叉树的深度.md)|Easy|
 |55-ii|[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof)|[Java](coding-interviews/55-平衡二叉树.md)|Easy|
-|56-i|[数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof)|||
-|56-ii|[数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof)|||
-|57-i|[和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof)|[C++](coding-interviews/-和为S的两个数字.md)||
-|57-ii|[和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)|[C++ & Java](coding-interviews/57-ii-和为s的连续正数序列)||
+|56-i|[数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof)|[Java](coding-interviews/56-数组中数字出现的次数-I.md)|Medium|
+|56-ii|[数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof)|[Java](coding-interviews/56-数组中数字出现的次数-II.md)|Medium|
+|57-i|[和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof)|[Java](coding-interviews/57-和为S的两个数字.md)|Easy|
+|57-ii|[和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)|[Java](coding-interviews/57-和为s的连续正数序列.md)|Easy|
 |58-i|[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof)|[C++](coding-interviews/58-翻转单词顺序.md)||
 |58-ii|[左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)|[C++](coding-interviews/58-ii-左旋转字符串.md)||
 |59-i|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)|[C++ & Java](coding-interviews/59-i-滑动窗口的最大值.md)||

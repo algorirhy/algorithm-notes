@@ -1,4 +1,4 @@
-# [丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)
+# [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
 
 ```java
 class Solution {
