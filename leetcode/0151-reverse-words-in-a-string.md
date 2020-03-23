@@ -1,23 +1,20 @@
 # [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string)
 
-```C++
+```java
 class Solution {
-public:
-    string reverseWords(string s) {
-        reverse(s.begin(),s.end());
-        int index = 0;
-        for (int i = 0;i < s.size();i++) {
-            if (s[i] != ' ') {
-                if (index != 0) s[index++] = ' ';
-                int j = i;
-                while (j < s.size() && s[j] != ' ') s[index++] = s[j++];
-                reverse(s.begin() + index - (j - i),s.begin() + index);
-                i = j;
-            } 
+    public String reverseWords(String s) {
+        s = s.trim();
+        StringBuffer sb = new StringBuffer();
+        int end = s.length();
+        for (int begin = s.length() - 1; begin >= 0; begin--) {
+            if (s.charAt(begin) == ' ') {
+                sb.append(s.substring(begin + 1, end) + ' ');
+                while (s.charAt(begin) == ' ') begin--;
+                end = begin + 1;
+            }
         }
-        s.resize(index);
-        return s;
+        return sb.append(s.substring(0, end)).toString();
     }
-};
+}
 ```
 

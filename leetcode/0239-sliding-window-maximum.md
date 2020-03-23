@@ -8,21 +8,23 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int len = nums.length;
-        if (k * len == 0) 
-            return new int[0];
+        if (k * len == 0) return new int[0];
         if (k == 1) return nums;
         int[] res = new int[len - k + 1];
-        ArrayDeque<Integer> deq = new ArrayDeque<>();
+        Deque<Integer> deq = new ArrayDeque<>();
         for (int i = 0; i < len; i++) {
             //保证队列首元素为当前窗口最大值下标
-            while (!deq.isEmpty() && nums[deq.getLast()] <= nums[i])
+            while(!deq.isEmpty() && nums[deq.getLast()] <= nums[i]) {
                 deq.removeLast();
+            }
             //队首元素坐标对应的num不在窗口中，需要弹出
-            while (!deq.isEmpty() && i - deq.getFirst() + 1 > k)
+            if (!deq.isEmpty() && i - deq.getFirst() + 1 > k) {
                 deq.removeFirst();
+            }
             deq.addLast(i);
-            if (i + 1 >= k)
+            if (i + 1 >= k) {
                 res[i - k + 1] = nums[deq.getFirst()];
+            }
         }
         return res;
     }

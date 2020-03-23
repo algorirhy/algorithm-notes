@@ -179,7 +179,7 @@
 |52|[两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof)|[Java](coding-interviews/52-两个链表的第一个公共节点.md)|Easy|
 |53-i|[在排序数组中查找数字](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof)|[Java](coding-interviews/53-在排序数组中查找数字.md)|Easy|
 |53-ii|[0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof)|[Java](coding-interviews/53-0～n-1中缺失的数字.md)|Easy|
-|54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)|[Java](coding-interviews/54-二叉搜索树的第k个结点.md)|Easy|
+|54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)|[Java](coding-interviews/54-二叉搜索树的第k大节点.md)|Easy|
 |55-i|[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof)|[Java](coding-interviews/55-二叉树的深度.md)|Easy|
 |55-ii|[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof)|[Java](coding-interviews/55-平衡二叉树.md)|Easy|
 |56-i|[数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof)|[Java](coding-interviews/56-数组中数字出现的次数-I.md)|Medium|
