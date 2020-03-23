@@ -9,7 +9,7 @@
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](leetcode/0003-longest-substring-without-repeating-characters.md) | Medium |
 | 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) | [C++](leetcode/0005-longest-palindromic-substring.md) | Medium |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) | [C++](leetcode/0007-reverse-integer.md) | Easy |
-| 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [C++](leetcode/0008-string-to-integer-atoi.md) | Medium |
+| 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [Java](leetcode/0008-string-to-integer-atoi.md) | Medium |
 | 9 | [回文数](https://leetcode-cn.com/problems/palindrome-number) | [C++](leetcode/0009-palindrome-number.md) | Easy |
 | 10 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching) | [Java](leetcode/0010-regular-expression-matching.md) | Hard |
 | 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [C++ & Java](leetcode/0011-container-with-most-water.md) | Medium |
@@ -66,7 +66,7 @@
 | 144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) | [Java](leetcode/0144-binary-tree-preorder-traversal.md) | Medium |
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) | [Java](leetcode/0145-binary-tree-postorder-traversal.md) | Hard |
 | 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |
-| 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [C++](leetcode/0151-reverse-words-in-a-string.md) | Medium |
+| 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [Java](leetcode/0151-reverse-words-in-a-string.md) | Medium |
 | 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii) | [Java](leetcode/0154-find-minimum-in-rotated-sorted-array-ii.md) | Hard |
 | 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | [Java](leetcode/0155-min-stack.md) | Easy |
 | 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | [Java](leetcode/0160-intersection-of-two-linked-lists.md) | Easy |
@@ -186,18 +186,18 @@
 |56-ii|[数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof)|[Java](coding-interviews/56-数组中数字出现的次数-II.md)|Medium|
 |57-i|[和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof)|[Java](coding-interviews/57-和为S的两个数字.md)|Easy|
 |57-ii|[和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)|[Java](coding-interviews/57-和为s的连续正数序列.md)|Easy|
-|58-i|[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof)|[C++](coding-interviews/58-翻转单词顺序.md)||
-|58-ii|[左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)|[C++](coding-interviews/58-ii-左旋转字符串.md)||
-|59-i|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)|[C++ & Java](coding-interviews/59-i-滑动窗口的最大值.md)||
-|59-ii|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)|[Java](coding-interviews/59-ii-队列的最大值.md)||
-|60|[n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof)|||
+|58-i|[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof)|[Java](coding-interviews/58-翻转单词顺序.md)|Easy|
+|58-ii|[左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)|[Java](coding-interviews/58-ii-左旋转字符串.md)|Easy|
+|59-i|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)|[Java](coding-interviews/59-i-滑动窗口的最大值.md)|Easy|
+|59-ii|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)|[Java](coding-interviews/59-ii-队列的最大值.md)|Medium|
+|60|[n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof)|[Java](coding-interviews/60-n个骰子的点数.md)|Easy|
 |61|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof)|[Java](coding-interviews/61-扑克牌中的顺子.md)|Easy|
-|62|[圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof)|||
-|63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof)|||
-|64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof)|[C++](coding-interviews/64-求1+2+3+...+n.md)||
-|65|[不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof)|[C++](coding-interviews/65-不用加减乘除做加法.md)||
-|66|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof)|[C++](coding-interviews/66-构建乘积数组.md)||
-|67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof)|||
+|62|[圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof)|[Java](coding-interviews/62-圆圈中最后剩下的数字.md)|Easy|
+|63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof)|[Java](coding-interviews/63-股票的最大利润.md)|Medium|
+|64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof)|[Java](coding-interviews/64-求1+2+3+...+n.md)|Medium|
+|65|[不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof)|[Java](coding-interviews/65-不用加减乘除做加法.md)|Easy|
+|66|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof)|[Java](coding-interviews/66-构建乘积数组.md)|Easy|
+|67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof)|[Java](coding-interviews/67-把字符串转换成整数.md)|Medium|
 |68-i|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)|[Java](coding-interviews/68-二叉搜索树的最近公共祖先.md)|Easy|
 |68-ii|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof)|[Java](coding-interviews/68-二叉树的最近公共祖先.md)|Easy|
 
