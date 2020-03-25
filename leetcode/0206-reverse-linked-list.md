@@ -2,40 +2,40 @@
 
 ### 递归
 
-```c++
+```java
 class Solution {
-public:
-    ListNode* reverseList(ListNode* head) {
-        if(!head || !head->next)
+    public ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) {
             return head;
-        ListNode* new_head = reverseList(head->next);
-        head->next->next = head;
-        head->next = nullptr;
-        return new_head;
+        }
+        ListNode newNode = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newNode;
     }
-};
+}
 ```
 
 ### 非递归
 
-```c++
+```java
 class Solution {
-public:
-    ListNode* reverseList(ListNode* head) {
-        if(!head || !head->next)
+    public ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) {
             return head;
-        ListNode* p1 = head;
-        ListNode* p2 = p1->next;
-        ListNode* p3;
-        while(p2){
-            p3 = p2->next;
-            p2->next = p1;
+        }
+        ListNode p1 = head;
+        ListNode p2 = p1.next;
+        ListNode p3 = p2.next;
+        while (p2 != null) {
+            p3 = p2.next;
+            p2.next = p1;
             p1 = p2;
             p2 = p3;
         }
-        head->next = nullptr;
+        head.next = null;
         return p1;
     }
-};
+}
 ```
 
