@@ -28,7 +28,7 @@
 | 27 | [移除元素](https://leetcode-cn.com/problems/remove-element) | [Java](leetcode/0027-remove-element.md) | Easy |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](leetcode/0031-next-permutation.md) | Medium |
 | 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](leetcode/0034-find-first-and-last-position-of-element-in-sorted-array.md) | Medium |
-| 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [C++](leetcode/0042-trapping-rain-water.md) | Hard |
+| 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [Java](leetcode/0042-trapping-rain-water.md) | Hard |
 | 43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [Java](leetcode/0043-multiply-strings.md) | Medium |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [Java](leetcode/0048-rotate-image.md) | Medium |
@@ -102,6 +102,7 @@
 | 365 | [水壶问题](https://leetcode-cn.com/classic/problems/water-and-jug-problem) | [Java](leetcode/0365-water-and-jug-problem.md) | Medium |
 | 400 | [第N个数字](https://leetcode-cn.com/problems/nth-digit) | [Java](leetcode/0400-nth-digit.md) | Medium |
 | 409 | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome) | [Java](leetcode/0409-longest-palindrome.md) | Easy |
+| 410 | [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum) | [Java](leetcode/0410-lsplit-array-largest-sum.md) | Hard |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Java](leetcode/0509-fibonacci-number.md) | Easy |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |
@@ -113,6 +114,7 @@
 | 945 | [使数组唯一的最小增量](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique) | [Java](leetcode/0945-minimum-increment-to-make-array-unique.md) | Medium |
 | 946 | [验证栈序列](https://leetcode-cn.com/classic/problems/validate-stack-sequences) | [Java](leetcode/0946-validate-stack-sequences.md) | Medium |
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |
+| 999 | [车的可用捕获量](https://leetcode-cn.com/problems/available-captures-for-rook) | [Java](leetcode/0999-available-captures-for-rook.md) | Easy |
 | 1013 | [将数组分成和相等的三个部分](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum) | [Java](leetcode/1013-partition-array-into-three-parts-with-equal-sum.md) | Easy |
 | 1071 | [字符串的最大公因子](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings) | [Java](leetcode/1071-greatest-common-divisor-of-strings.md) | Easy |
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |
