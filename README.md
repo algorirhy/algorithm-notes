@@ -207,29 +207,3 @@
 |67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof)|[Java](coding-interviews/67-把字符串转换成整数.md)|Medium|
 |68-i|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)|[Java](coding-interviews/68-二叉搜索树的最近公共祖先.md)|Easy|
 |68-ii|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof)|[Java](coding-interviews/68-二叉树的最近公共祖先.md)|Easy|
-
-
-### PAT
-
-|**#**|**Title**|**Solution**|
-| :---: | :---: | :---: |
-| 1002 | [A+B for Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000) | [C++](pat/1002-polynomials.md) |
-| 1006 | [Sign In and Sign Out](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928) | [C++](pat/1006-sign-in-and-sign-out.md) |
-| 1009 | [Product of Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805509540921344) | [C++](pat/1009-product-of-polynomials.md) |
-| 1011 | [World Cup Betting](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944) | [C++](pat/1011-world-cup-betting.md) |
-| 1019 | [General Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984) | [C++](pat/1019-general-palidromic-number.md) |
-| 1020 | [Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072) | [C++](pat/1020-tree-traversals.md) |
-| 1025 | [PAT Ranking](https://pintia.cn/problem-sets/994805342720868352/problems/994805474338127872) | [C++](pat/1025-pat-ranking.md) |
-| 1027 | [Colors in Mars](https://pintia.cn/problem-sets/994805342720868352/problems/994805470349344768) | [C++](pat/1027-colors-in-mars.md) |
-| 1031 | [Hello World for U](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416) | [C++](pat/1031-hello-world-for-u.md) |
-| 1032 | [Sharing](https://pintia.cn/problem-sets/994805342720868352/problems/994805460652113920) | [C++](pat/1032-sharing.md) |
-| 1036 | [Boys vs Girls](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016) | [C++](pat/1036-boys-vs-girls.md) |
-| 1042 | [Shuffling Machine](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672) | [C++](pat/1042-shuffling-machine.md) |
-| 1046 | [Shortest Distance](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424) | [C++](pat/1046-shortest-distance.md) |
-| 1052 | [Linked List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805425780670464) | [C++](pat/1052-linked-list-sorting.md) |
-| 1058 | [A+B in Hogwarts](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232) | [C++](pat/1058-hogwarts.md) |
-| 1059 | [Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488) | [C++](pat/1059-prime-factors.md) |
-| 1060 | [Are They Equal](https://pintia.cn/problem-sets/994805342720868352/problems/994805413520719872) | [C++](pat/1060-are-they-equal.md) |
-| 1065 | [A+B and C (64bit)](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336) | [C++](pat/1065-a-plus-b-and-c.md) |
-| 1069 | [The Black Hole of Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088) | [C++](pat/1069-the-black-hole-of-numbers.md) |
-| 1093 | [Count PAT's](https://pintia.cn/problem-sets/994805342720868352/problems/994805373582557184) | [C++](pat/1093-count-pat's.md) |
