@@ -1,7 +1,5 @@
 # [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
 
-今天招银网络笔试考了一个类似的，可惜没做出来，看样子还是题刷少了。
-
 ### 方法一
 
 暴力法，简直就是暴力美学。

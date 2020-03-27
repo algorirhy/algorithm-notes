@@ -4,7 +4,7 @@ f(0) = 0, f(1) = 1, f(2)=1;
 
 ### 方法一
 
-```Java
+```java
 class Solution {
     public int fib(int n) {
         if (n < 2) {
@@ -25,7 +25,7 @@ class Solution {
 
 动态规划
 
-```Java
+```java
 class Solution {
     public int fib(int n) {
         if (n < 2) {

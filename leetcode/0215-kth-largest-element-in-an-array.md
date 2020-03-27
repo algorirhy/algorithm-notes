@@ -4,121 +4,58 @@
 
 利用小顶堆
 
-```c++
+```java
 class Solution {
-public:
-    int findKthLargest(vector<int>& nums, int k) {
-        if(k < 0 || k > nums.size()){
-            return 0;
-        }
-        //小顶堆
-        priority_queue<int, vector<int>, greater<int>> q;
-        for(int i = 0; i < nums.size(); i++){
-            if(q.size() < k){
-                q.push(nums[i]);
-            }else if (q.top() < nums[i]){
-                q.pop();
-                q.push(nums[i]);
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for (int num : nums) {
+            if (pq.size() < k) {
+                pq.add(num);
+            } else if (num > pq.peek()) {
+                pq.remove();
+                pq.add(num);
             }
         }
-        return q.top();        
+        return pq.peek();
     }
-};
+}
 ```
 
 
 
 ### 方法二
 
-快速排序 + 二分查找
+快速排序
 
-```c++
+```java
 class Solution {
-public:
-    int findKthLargest(vector<int>& nums, int k) {
-        if(k < 1 || k > nums.size()){
-            return 0;
-        }
-        srand(time(nullptr)); 
-        //第k大等价于第n-k+1小,即快排确定的第n-k+1个元素
-        return findKthLargest(nums, 0, nums.size() - 1, nums.size() - k);
+    public int findKthLargest(int[] nums, int k) {
+        // 第k大等价于第n-k+1小,即快排确定的第n-k+1个元素
+        return find(nums, 0, nums.length - 1, nums.length - k);
     }
 
-private:
-    int findKthLargest(vector<int>& nums, int l, int r, int s){
-        if(l == r){
-            return nums[l];
-        }
-        int p = partition(nums, l, r);
-        if(p == s){
-            return nums[p];
-        }else if(p > s){
-            return findKthLargest(nums, l, p - 1, s);
-        }else{
-            return findKthLargest(nums, p + 1, r, s);
+    private int find(int[] nums, int left, int right, int k) {
+        int pos = partition(nums, left, right);
+        if (pos == k) {
+            return nums[pos];
+        } else if (pos < k) {
+            return find(nums, pos + 1, right, k);
+        } else {
+            return find(nums, left, pos - 1, k);
         }
     }
 
-    int partition(vector<int>& nums, int l, int r){
-        int p = rand()%(r - l + 1) + l;
-        swap(nums[l], nums[p]);
-        
-        int j = l;
-        for (int i = l + 1; i <= r; i++) {
-            if (nums[i] < nums[l]) {
-                swap(nums[i], nums[j + 1]);
-                j++;
-            }
+    private int partition(int[] nums, int left, int right) {
+        int pivot = nums[left];
+        while (left < right) {
+            while (left < right && nums[right] > pivot) right--;
+            nums[left] = nums[right];
+            while (left < right && nums[left] <= pivot) left++;
+            nums[right] = nums[left];
         }
-        swap(nums[l], nums[j]);
-        return j;
+        nums[left] = pivot;
+        return left;
     }
-}; 
-```
-
-或者
-
-```c++
-class Solution {
-public:
-    int findKthLargest(vector<int>& nums, int k) {
-        if(k < 1 || k > nums.size()){
-            return 0;
-        }
-        srand(time(nullptr)); 
-        //第k大等价于第n-k+1小,即快排确定的第n-k+1个元素
-        return findKthLargest(nums, 0, nums.size() - 1, nums.size() - k);
-    }
-
-private:
-    int findKthLargest(vector<int>& nums, int l, int r, int s){
-        if(l == r){
-            return nums[l];
-        }
-        int p = partition(nums, l, r);
-        if(p == s){
-            return nums[p];
-        }else if(p > s){
-            return findKthLargest(nums, l, p - 1, s);
-        }else{
-            return findKthLargest(nums, p + 1, r, s);
-        }
-    }
-
-	int partition(vector<int>& nums, int l, int r){
-        int p = rand()%(r - l + 1) + l;
-        swap(nums[l], nums[p]);
-        
-        int temp = nums[l];
-        while(l < r){
-            while(l < r && nums[r] > temp) r--;
-            nums[l] = nums[r];
-            while(l < r && nums[l] <= temp) l++;
-            nums[r] = nums[l];
-        }
-        nums[l] = temp;
-        return l;
-    }
-};
+}
 ```
 

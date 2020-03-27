@@ -4,7 +4,7 @@
 
 层次遍历，按层讨论
 
-```Java
+```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         int depth = 0;

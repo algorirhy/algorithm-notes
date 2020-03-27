@@ -1,27 +1,25 @@
 # [两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
 
-```C++
+```java
 class Solution {
-public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* dummyNode = new ListNode(0);
-        ListNode* p = l1;
-        ListNode* q = l2;
-        ListNode* curr = dummyNode;
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        ListNode p = l1;
+        ListNode q = l2;
         int carry = 0;
-        while(p || q){
-            int x = (p) ? p->val : 0;
-            int y = (q) ? q->val : 0;
+        while (p != null || q != null) {
+            int x = (p == null) ? 0 : p.val;
+            int y = (q == null) ? 0 : q.val;
             int sum = x + y + carry;
             carry = sum / 10;
-            curr->next = new ListNode(sum%10);
-            curr = curr->next;
-            if(p!=NULL) p = p->next;
-            if(q!=NULL) q = q->next;
+            cur.next = new ListNode(sum % 10);
+            cur = cur.next;
+            if (p != null) p = p.next;
+            if (q != null) q = q.next;
         }
-        if(carry) curr->next = new ListNode(carry);
-        return dummyNode->next;
+        if (carry != 0 ) cur.next = new ListNode(carry);
+        return dummy.next;
     }
-};
+}
 ```
-

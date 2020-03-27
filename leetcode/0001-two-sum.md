@@ -4,43 +4,36 @@
 
 暴力法
 
-```C++
+```java
 class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        for(int i=0; i<nums.size(); i++){
-            for(int j=i+1; j<nums.size(); j++){
-                if(nums[j]==target-nums[i]){
-                    return {i,j};
+    public int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[]{i, j};
                 }
             }
         }
-        return {-1,-1};
+        return new int[]{-1, -1};
     }
-};
+}
 ```
 
 ### 方法二
 
 利用map
 
-```C++
+```java
 class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-    map<int, int> mp;
-    vector<int> ans;
-    int len = (int) nums.size();
-    for (int i = 0; i < len; i++) {
-        if (mp.find(target - nums[i]) != mp.end()) {
-            ans.push_back(mp[target - nums[i]]);
-            ans.push_back(i);
-            return ans;
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(target - nums[i])) {
+                return new int[]{map.get(target - nums[i]), i};
+            }
+            map.put(nums[i], i);
         }
-        mp[nums[i]] = i;
+        return new int[]{-1, -1};
     }
-    	return ans;
-    }
-};
+}
 ```
-

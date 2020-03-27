@@ -4,7 +4,7 @@
 
 贪心
 
-```c++
+```java
 class Solution {
     public int cuttingRope(int n) {
         if (n <= 3) return n - 1;

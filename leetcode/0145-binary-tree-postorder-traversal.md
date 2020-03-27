@@ -42,7 +42,7 @@ class Solution {
 
 ### 方法三
 
-```Java
+```java
 class Solution {
 
     class ColorNode {
