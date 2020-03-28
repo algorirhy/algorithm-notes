@@ -2,6 +2,8 @@
 
 ### 方法一
 
+递归
+
 ```java
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
@@ -20,6 +22,46 @@ class Solution {
 ```
 
 ### 方法二
+
+标准解法
+
+```java
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> res = new LinkedList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode p = root;
+        TreeNode pre = null;
+        while (p != null || !stack.isEmpty()) {
+            while (p != null) {
+                stack.push(p);
+                p = p.left;
+            }
+            p = stack.peek();
+            // 若没有右节点或者右节点已经访问过，则输出该节点值
+            if (p.right == null || pre == p.right) {
+                stack.pop();
+                res.add(p.val);
+                pre = p;
+                p = null;
+            } else {
+                p = p.right;
+            }
+        }
+        return res;
+    }
+}
+```
+
+### 方法三
+
+前序遍历顺序为：根 -> 左 -> 右
+
+后序遍历顺序为：左 -> 右 -> 根
+
+* 将前序遍历中节点插入结果链表尾部的逻辑，修改为将节点插入结果链表的头部，那么结果链表就变为了：右 -> 左 -> 根
+
+* 再将遍历的顺序由从左到右修改为从右到左，那么结果链表就变为了：左 -> 右 -> 根
 
 ```java
 class Solution {
@@ -41,6 +83,8 @@ class Solution {
 ```
 
 ### 方法三
+
+颜色节点
 
 ```java
 class Solution {

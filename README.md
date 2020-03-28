@@ -43,6 +43,7 @@
 | 82 | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii) | [Java](leetcode/0082-remove-duplicates-from-sorted-list-ii.md) | Medium |
 | 83 | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | [Java](leetcode/0083-remove-duplicates-from-sorted-list.md) | Easy |
 | 84 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | [Java](leetcode/0084-largest-rectangle-in-histogram.md) | Hard |
+| 86 | [分隔链表](https://leetcode-cn.com/problems/partition-list) | [Java](leetcode/0086-partition-list.md) | Medium |
 | 88 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) | [Java](leetcode/0088-merge-sorted-array.md) | Easy |
 | 93 | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses) | [Java](leetcode/0093-restore-ip-addresses.md) | Medium |
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | [Java](leetcode/0094-binary-tree-inorder-traversal.md) | Medium |
@@ -78,6 +79,7 @@
 | 198 | [打家劫舍](https://leetcode-cn.com/problems/house-robber) | [Java](leetcode/0198-house-robber.md) | Easy |
 | 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands) | [Java](leetcode/0200-number-of-islands.md) | Medium |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [Java](leetcode/0206-reverse-linked-list.md) | Easy |
+| 208 | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | [Java](leetcode/0208-implement-trie-prefix-tree.md) | Medium |
 | 213 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii) | [Java](leetcode/0213-house-robber-ii.md) | Medium |
 | 215 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [Java](leetcode/0215-kth-largest-element-in-an-array.md) | Medium |
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [Java](leetcode/0225-implement-stack-using-queues.md) | Easy |
@@ -110,6 +112,7 @@
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) | [Java](leetcode/0695-max-area-of-island.md) | Medium |
 | 703 | [数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream) | [Java](leetcode/0703-kth-largest-element-in-a-stream.md) | Easy |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [Java](leetcode/0709-to-lower-case.md) | Easy |
+| 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |
 | 892 | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | [Java](leetcode/0892-surface-area-of-3d-shapes.md) | Easy |

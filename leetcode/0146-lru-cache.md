@@ -1,7 +1,105 @@
 # [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
 ### 方法一
-利用 LinkedHashMap 有序字典
+
+哈希表 + 双向链表
+
+```java
+class LRUCache {
+
+    // 双向链表节点
+    class Node {
+        public int key, val;
+        public Node pre, next;
+        public Node(int key, int val) {
+            this.key = key;
+            this.val = val;
+        }
+    }
+
+    // 双向链表
+    class DoubleList {
+        private Node head, tail;
+        private int size;
+
+        public DoubleList() {
+            head = new Node(0, 0);
+            tail = new Node(0, 0);
+            head.next = tail;
+            tail.pre = head;
+            size = 0;
+        }
+
+        // 在链表头部添加节点 node
+        public void addFirst(Node node) {
+            node.pre = head;
+            node.next = head.next;
+            head.next.pre = node;
+            head.next = node;
+            size++;
+        }
+
+        // 删除链表中的 node 节点（node 一定存在）
+        public void remove(Node node) {
+            node.pre.next = node.next;
+            node.next.pre = node.pre;
+            size--;
+        }
+
+        // 删除链表中最后一个节点，并返回该节点
+        public Node removeLast() {
+            if (head.next == tail) return null;
+            Node last = tail.pre;
+            remove(last);
+            return last;
+        }
+
+        // 返回链表长度
+        public int size() {
+            return size;
+        }
+    }
+
+    private int cap;
+    private DoubleList cache;
+    private Map<Integer, Node> map;
+
+    public LRUCache(int capacity) {
+        cap = capacity;
+        cache = new DoubleList();
+        map = new HashMap<>();
+    }
+    
+    public int get(int key) {
+        if (!map.containsKey(key)) {
+            return -1;
+        }
+        int val = map.get(key).val;
+        // 利用 put 方法把该数据提前
+        put(key, val);
+        return val;
+    }
+    
+    public void put(int key, int value) {
+        Node node = new Node(key, value);
+        if (map.containsKey(key)) {
+            // 删除原节点
+            cache.remove(map.get(key));
+        } else if (cache.size() == cap){
+            // 容量已满，删除尾节点
+            Node last = cache.removeLast();
+            map.remove(last.key);
+        }
+        // 添加新节点
+        cache.addFirst(node);
+        map.put(key, node);
+    }
+}
+```
+
+### 方法二
+
+利用 `LinkedHashMap`
 
 ```java
 class LRUCache extends LinkedHashMap<Integer, Integer>{
@@ -28,93 +126,3 @@ class LRUCache extends LinkedHashMap<Integer, Integer>{
     }
 }
 ```
-
-
-
-### 方法二
-
-哈希表 + 双向链表
-
-```java
-import java.util.Hashtable;
-
-class LRUCache {
-
-    class DLinkedNode {
-        int key;
-        int value;
-        DLinkedNode pre;
-        DLinkedNode next;
-    }
-
-    private int size, capacity;
-    private DLinkedNode head, tail;
-    private Hashtable<Integer, DLinkedNode> cache = new Hashtable<Integer, DLinkedNode>();
-
-    private void addNode(DLinkedNode node) {
-        node.pre = head;
-        node.next = head.next;
-        head.next.pre = node;
-        head.next = node;
-    }
-
-    private void removeNode(DLinkedNode node) {
-        DLinkedNode pre = node.pre;
-        DLinkedNode next = node.next;
-        pre.next = next;
-        next.pre = pre;
-    }
-
-    private void moveToHead(DLinkedNode node) {
-        removeNode(node);
-        addNode(node);
-    }
-
-    private DLinkedNode popTail() {
-        DLinkedNode node = tail.pre;
-        removeNode(node);
-        return node;
-    }
-
-    public LRUCache(int capacity) {
-        this.size = 0;
-        this.capacity = capacity;
-
-        head = new DLinkedNode();
-        tail = new DLinkedNode();
-        //head.pre = null;
-        head.next = tail;
-        tail.pre = head;
-        //tail.next = null;
-    }
-    
-    public int get(int key) {
-        DLinkedNode node = cache.get(key);
-        if(node == null)
-            return -1;
-        moveToHead(node);
-        return node.value;
-    }
-    
-    public void put(int key, int value) {
-        DLinkedNode node = cache.get(key);
-        if(node == null){
-            DLinkedNode newNode = new DLinkedNode();
-            newNode.key = key;
-            newNode.value = value;
-            cache.put(key, newNode);
-            addNode(newNode);
-            size++;
-            if(size > capacity){
-                DLinkedNode tail = popTail();
-                cache.remove(tail.key);
-                size--;
-            }
-        }else{
-            node.value = value;
-            moveToHead(node);
-        }
-    }
-}
-```
-

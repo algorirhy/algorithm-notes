@@ -11,18 +11,19 @@ class Solution {
         if (k * len == 0) return new int[0];
         if (k == 1) return nums;
         int[] res = new int[len - k + 1];
+        // 注意存的是下标
         Deque<Integer> deq = new ArrayDeque<>();
         for (int i = 0; i < len; i++) {
-            //保证队列首元素为当前窗口最大值下标
-            while(!deq.isEmpty() && nums[deq.getLast()] <= nums[i]) {
+            // 保证队列首元素为当前窗口最大值下标
+            while (!deq.isEmpty() && nums[i] > nums[deq.getLast()]) {
                 deq.removeLast();
             }
-            //队首元素坐标对应的num不在窗口中，需要弹出
+            // 队首元素坐标对应的num不在窗口中，需要弹出
             if (!deq.isEmpty() && i - deq.getFirst() + 1 > k) {
                 deq.removeFirst();
             }
-            deq.addLast(i);
-            if (i + 1 >= k) {
+            deq.add(i);
+            if (i >= k - 1) {
                 res[i - k + 1] = nums[deq.getFirst()];
             }
         }
