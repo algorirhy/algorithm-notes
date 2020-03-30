@@ -57,6 +57,7 @@
 | 104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | [Java](leetcode/0104-maximum-depth-of-binary-tree.md) | Easy |  |
 | 105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [Java](leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal.md) | Medium |  |
 | 110 | [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree) | [Java](leetcode/0110-balanced-binary-tree.md) | Easy |  |
+| 111 | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | [Java](leetcode/0111-minimum-depth-of-binary-tree.md) | Easy | 树 |
 | 112 | [路径总和](https://leetcode-cn.com/classic/problems/path-sum) | [Java](leetcode/0112-path-sum.md) | Easy |  |
 | 113 | [路径总和 II](https://leetcode-cn.com/classic/problems/path-sum-ii) | [Java](leetcode/0113-path-sum-ii.md) | Medium |  |
 | 120 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle) | [Java](leetcode/0120-triangle.md) | Medium | 动态规划 |
@@ -105,6 +106,7 @@
 | 337 | [打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii) | [Java](leetcode/0337-house-robber-iii.md) | Medium |  |
 | 338 | [比特位计数](https://leetcode-cn.com/problems/counting-bits) | [Java](leetcode/0338-counting-bits.md) | Medium |  |
 | 343 | [整数拆分](https://leetcode-cn.com/problems/integer-break) | [Java](leetcode/0343-integer-break.md) | Medium |  |
+| 344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string) | [Java](leetcode/0344-reverse-string.md) | Easy | 字符串 |
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements) | [Java](leetcode/0347-top-k-frequent-elements.md) | Medium |  |
 | 365 | [水壶问题](https://leetcode-cn.com/classic/problems/water-and-jug-problem) | [Java](leetcode/0365-water-and-jug-problem.md) | Medium |  |
 | 400 | [第N个数字](https://leetcode-cn.com/problems/nth-digit) | [Java](leetcode/0400-nth-digit.md) | Medium |  |
@@ -112,9 +114,12 @@
 | 410 | [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum) | [Java](leetcode/0410-lsplit-array-largest-sum.md) | Hard |  |
 | 416 | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum) | [Java](leetcode/0416-partition-equal-subset-sum.md) | Medium | 动态规划 |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Java](leetcode/0509-fibonacci-number.md) | Easy |  |
+| 541 | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii) | [Java](leetcode/0541-reverse-string-ii.md) | Easy | 字符串 |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |  |
+| 557 | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii) | [Java](leetcode/0557-reverse-words-in-a-string-iii.md) | Easy | 字符串 |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |  |
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) | [Java](leetcode/0695-max-area-of-island.md) | Medium |  |
+| 700 | [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree) | [Java](leetcode/0700-search-in-a-binary-search-tree.md) | Easy | 树 |
 | 703 | [数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream) | [Java](leetcode/0703-kth-largest-element-in-a-stream.md) | Easy |  |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [Java](leetcode/0709-to-lower-case.md) | Easy |  |
 | 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |  |

@@ -10,14 +10,15 @@ class Solution {
         if (head == null) return null;
         // [begin, end) 前开后闭
         ListNode begin = head;
-        ListNode end = begin;
-        for (int i = 0; i< k; i++) {
+        ListNode end = head;
+        for (int i = 0; i < k; i++) {
+            // 元素小于 k, 直接返回head
             if (end == null) return head;
             end = end.next;
         }
         // 反转前 k 个元素
         ListNode newHead = reverse(begin, end);
-        // 递归反转后续链表并连接起来
+        // 反转后续链表并连接起来
         begin.next = reverseKGroup(end, k);
         return newHead;
     }
@@ -26,11 +27,12 @@ class Solution {
         ListNode p1 = begin;
         ListNode p2 = p1.next;
         ListNode p3 = null;
+        // 注意条件 [begin, end)
         while (p2 != end) {
             p3 = p2.next;
             p2.next = p1;
             p1 = p2;
-            p2 = p3; 
+            p2 = p3;
         }
         return p1;
     }
@@ -44,24 +46,25 @@ class Solution {
 ```java
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null) return null;
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode pre = dummy;
-        ListNode tail = dummy;
+        ListNode end = pre;
         while (true) {
-            for (int i = 0; i < k && tail != null; i++) {
-                tail = tail.next;
+            for (int i = 0; i < k && end != null; i++) {
+                end = end.next;
             }
-            if (tail == null) break;
-            // pre->[start, tail]->next;
-            ListNode start = pre.next;
-            ListNode next = tail.next;
-            tail.next = null;
-            pre.next = reverse(start);
-            start.next = next;
-            // 重置 pre, tail
-            pre = start;
-            tail = pre;
+            if (end == null) break;
+            // pre->[begin, end]->next;
+            ListNode begin = pre.next;
+            ListNode next = end.next;
+            end.next = null;
+            pre.next = reverse(begin);
+            begin.next = next;
+            // 重置 pre, end;
+            pre = begin;
+            end = pre;
         }
         return dummy.next;
     }
@@ -77,7 +80,6 @@ class Solution {
             p1 = p2;
             p2 = p3;
         }
-        // head.next = null;
         return p1;
     }
 }
