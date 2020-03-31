@@ -40,6 +40,7 @@
 | 56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](leetcode/0056-merge-intervals.md) | Medium |  |
 | 65 | [有效数字](https://leetcode-cn.com/problems/valid-number) | [Java](leetcode/0061-valid-number.md) | Hard |  |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one) | [Java](leetcode/0066-plus-one.md) | Easy |  |
+| 69 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx) | [Java](leetcode/0069-sqrtx.md) | Easy | 二分查找 |
 | 70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs) | [Java](leetcode/0070-climbing-stairs.md) | Easy |  |
 | 72 | [编辑距离](https://leetcode-cn.com/problems/edit-distance) | [Java](leetcode/0072-edit-distance.md) | Hard | 动态规划 |
 | 79 | [单词搜索](https://leetcode-cn.com/problems/word-search) | [Java](leetcode/0079-word-search.md) | Medium |  |
@@ -48,6 +49,7 @@
 | 84 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram) | [Java](leetcode/0084-largest-rectangle-in-histogram.md) | Hard |  |
 | 86 | [分隔链表](https://leetcode-cn.com/problems/partition-list) | [Java](leetcode/0086-partition-list.md) | Medium |  |
 | 88 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) | [Java](leetcode/0088-merge-sorted-array.md) | Easy |  |
+| 91 | [解码方法](https://leetcode-cn.com/problems/decode-ways) | [Java](leetcode/0091-decode-ways.md) | Medium | 动态规划 |
 | 93 | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses) | [Java](leetcode/0093-restore-ip-addresses.md) | Medium |  |
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | [Java](leetcode/0094-binary-tree-inorder-traversal.md) | Medium |  |
 | 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [Java](leetcode/0098-validate-binary-search-tree.md) | Medium |  |
@@ -126,6 +128,7 @@
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
 | 892 | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | [Java](leetcode/0892-surface-area-of-3d-shapes.md) | Easy |  |
+| 912 | [排序数组](https://leetcode-cn.com/problems/sort-an-array) | [Java](leetcode/0912-sort-an-array.md) | Medium | 排序算法 |
 | 914 | [卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards) | [Java](leetcode/0914-x-of-a-kind-in-a-deck-of-cards.md) | Easy |  |
 | 945 | [使数组唯一的最小增量](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique) | [Java](leetcode/0945-minimum-increment-to-make-array-unique.md) | Medium |  |
 | 946 | [验证栈序列](https://leetcode-cn.com/classic/problems/validate-stack-sequences) | [Java](leetcode/0946-validate-stack-sequences.md) | Medium |  |
