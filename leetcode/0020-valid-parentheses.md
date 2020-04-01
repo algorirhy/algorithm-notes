@@ -1,23 +1,22 @@
 # [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 
+利用栈和 ASCII 码
+
 ```java
 class Solution {
-    private static final Map<Character, Character> map = new HashMap<>() {{
-        put('{','}'); put('[',']'); put('(',')'); put('?','?');
-        }};
-
     public boolean isValid(String s) {
-        if (s.length() > 0 && !map.containsKey(s.charAt(0)))
-            return false;
-        LinkedList<Character> stack = new LinkedList<Character>() {{ add('?'); }};
-        for (Character c : s.toCharArray()) {
-            if (map.containsKey(c)) {
-                stack.addLast(c);
-            } else if (map.get(stack.removeLast()) != c) {
+        if (s.isEmpty()) return true;
+        if ((s.length() & 1) == 1) return false;
+        Deque<Character> stack = new ArrayDeque<>();
+        for (char ch : s.toCharArray()) {
+            // '('，')'，'{'，'}'，'['，']' 的 ASCII码分别是 40、41、91、93、123、125
+            if (ch == '(' || ch == '[' || ch == '{') {
+                stack.push(ch);
+            } else if (stack.isEmpty() || Math.abs(ch - stack.pop()) > 2) {
                 return false;
             }
         }
-        return stack.size() == 1;
+        return stack.isEmpty();
     }
 }
 ```

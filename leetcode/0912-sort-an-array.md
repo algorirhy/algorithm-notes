@@ -188,11 +188,11 @@
         }
         for (int i = 0, mod = 1; i < digits; i++, mod *= 10) {
             for (int num : arr) {
-                //计算余数 放入相应的桶
+                // 计算余数 放入相应的桶
                 int pos = (num / mod) % 10;
                 bucketList.get(pos + 9).add(num);
             }
-            //写回数组
+            // 写回数组
             int index = 0;
             for (ArrayList<Integer> bucket : bucketList) {
                 for (int num : bucket) {
@@ -250,11 +250,11 @@
             int pos = (num - min) / interval;
             bucketList.get(pos).add(num);
         }
-        //桶内排序
+        // 桶内排序
         for (ArrayList<Integer> list : bucketList) {
             Collections.sort(list);
         }
-        //写入原数组
+        // 写入原数组
         int index = 0;
         for (ArrayList<Integer> list : bucketList) {
             for (int num : list) {
@@ -272,10 +272,10 @@
         int len = arr.length;
         buildHeap(arr, len);
         for (int i = len - 1; i > 0; i--) {
-            //将堆顶元素与末位元素调换
+            // 将堆顶元素与末位元素调换
             swap(arr, 0, i);
             len--;
-            //调整大顶堆
+            // 调整大顶堆
             sink(arr, 0, len);
         }
     }
@@ -314,7 +314,7 @@
 
         if (parent != index) {
             swap(arr, index, parent);
-            //继续调整
+            // 继续调整
             sink(arr, parent, len);
         }
     }

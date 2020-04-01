@@ -27,6 +27,7 @@
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy |  |
 | 27 | [移除元素](https://leetcode-cn.com/problems/remove-element) | [Java](leetcode/0027-remove-element.md) | Easy |  |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](leetcode/0031-next-permutation.md) | Medium |  |
+| 32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses) | [Java](leetcode/0032-longest-valid-parentheses.md) | Hard | 动态规划 |
 | 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](leetcode/0034-find-first-and-last-position-of-element-in-sorted-array.md) | Medium |  |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [Java](leetcode/0042-trapping-rain-water.md) | Hard |  |
 | 43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [Java](leetcode/0043-multiply-strings.md) | Medium |  |
@@ -38,6 +39,8 @@
 | 53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray) | [Java](leetcode/0053-maximum-subarray.md) | Easy |  |
 | 54 | [螺旋矩阵](https://leetcode-cn.com/classic/problems/spiral-matrix) | [Java](leetcode/0054-spiral-matrix.md) | Medium |  |
 | 56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](leetcode/0056-merge-intervals.md) | Medium |  |
+| 62 | [不同路径](https://leetcode-cn.com/problems/unique-paths) | [Java](leetcode/0062-unique-paths.md) | Medium | 动态规划 |
+| 64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum) | [Java](leetcode/0064-minimum-path-sum.md) | Medium | 动态规划 |
 | 65 | [有效数字](https://leetcode-cn.com/problems/valid-number) | [Java](leetcode/0061-valid-number.md) | Hard |  |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one) | [Java](leetcode/0066-plus-one.md) | Easy |  |
 | 69 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx) | [Java](leetcode/0069-sqrtx.md) | Easy | 二分查找 |
@@ -52,6 +55,7 @@
 | 91 | [解码方法](https://leetcode-cn.com/problems/decode-ways) | [Java](leetcode/0091-decode-ways.md) | Medium | 动态规划 |
 | 93 | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses) | [Java](leetcode/0093-restore-ip-addresses.md) | Medium |  |
 | 94 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) | [Java](leetcode/0094-binary-tree-inorder-traversal.md) | Medium |  |
+| 96 | [不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees) | [Java](leetcode/0096-unique-binary-search-trees.md) | Medium | 动态规划 |
 | 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [Java](leetcode/0098-validate-binary-search-tree.md) | Medium |  |
 | 101 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree) | [Java](leetcode/0101-symmetric-tree.md) | Easy |  |
 | 102 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | [Java](leetcode/0102-binary-tree-level-order-traversal.md) | Medium |  |
@@ -76,6 +80,7 @@
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) | [Java](leetcode/0145-binary-tree-postorder-traversal.md) | Hard |  |
 | 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |  |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [Java](leetcode/0151-reverse-words-in-a-string.md) | Medium |  |
+| 152 | [乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray) | [Java](leetcode/0152-maximum-product-subarray.md) | Meidum | 动态规划 |
 | 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii) | [Java](leetcode/0154-find-minimum-in-rotated-sorted-array-ii.md) | Hard |  |
 | 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | [Java](leetcode/0155-min-stack.md) | Easy |  |
 | 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | [Java](leetcode/0160-intersection-of-two-linked-lists.md) | Easy |  |
@@ -137,6 +142,8 @@
 | 1013 | [将数组分成和相等的三个部分](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum) | [Java](leetcode/1013-partition-array-into-three-parts-with-equal-sum.md) | Easy |  |
 | 1071 | [字符串的最大公因子](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings) | [Java](leetcode/1071-greatest-common-divisor-of-strings.md) | Easy |  |
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |  |
+| 1108 | [IP 地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address) | [Java](leetcode/1108-defanging-an-ip-address.md) | Easy | 字符串 |
+| 1111 | [有效括号的嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) | [Java](leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings.md) | Meidum |  |
 | 1114 | [按序打印](https://leetcode-cn.com/problems/print-in-order) | [Java](leetcode/1114-print-in-order.md) | Easy |  |
 | 1115 | [交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately) | [Java](leetcode/1115-print-foobar-alternately.md) | Medium |  |
 | 1143 | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence) | [Java](leetcode/1143-longest-common-subsequence.md) | Medium | 动态规划 |

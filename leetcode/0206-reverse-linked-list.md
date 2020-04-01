@@ -8,10 +8,10 @@ class Solution {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode newNode = reverseList(head.next);
+        ListNode newHead = reverseList(head.next);
         head.next.next = head;
         head.next = null;
-        return newNode;
+        return newHead;
     }
 }
 ```
@@ -26,7 +26,7 @@ class Solution {
         }
         ListNode p1 = head;
         ListNode p2 = p1.next;
-        ListNode p3 = p2.next;
+        ListNode p3 = null;
         while (p2 != null) {
             p3 = p2.next;
             p2.next = p1;
