@@ -106,6 +106,7 @@
 | 263 | [丑数](https://leetcode-cn.com/problems/ugly-number) | [Java](leetcode/0263-ugly-number.md) | Easy |  |
 | 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | [Java](leetcode/0264-ugly-number-ii.md) | Medium |  |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |  |
+| 289 | [生命游戏](https://leetcode-cn.com/problems/game-of-life) | [Java](leetcode/0289-game-of-life.md) | Medium | 数组 |
 | 295 | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) | [Java](leetcode/0295-find-median-from-data-stream.md) | Hard |  |
 | 297 | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) | [Java](leetcode/0297-serialize-and-deserialize-binary-tree.md) | Hard |  |
 | 300 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence) | [Java](leetcode/0300-longest-increasing-subsequence.md) | Medium |  |
@@ -177,7 +178,7 @@
 |16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)|[Java](coding-interviews/16-数值的整数次方.md)|Medium||
 |17|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)|[Java](coding-interviews/17-打印从1到最大的n位数.md)|Easy||
 |18|[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof)|[Java](coding-interviews/18-删除链表的节点.md)|Easy||
-|19|[正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof)|[C++ & Java](coding-interviews/19-正则表达式匹配.md)|Hard||
+|19|[正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof)|[Java](coding-interviews/19-正则表达式匹配.md)|Hard||
 |20|[表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)|[Java](coding-interviews/20-表示数值的字符串.md)|Medium||
 |21|[调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)|[Java](coding-interviews/21-调整数组顺序使奇数位于偶数前面.md)|Easy||
 |22|[链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)|[Java](coding-interviews/22-链表中倒数第k个节点.md)|Easy||
