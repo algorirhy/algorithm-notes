@@ -4,20 +4,21 @@
 class Solution {
     public int myAtoi(String str) {
         str = str.trim();
-        int len = str.length(), abs = 1;
-        long res = 0;
+        int len = str.length();
         if (len == 0) return 0;
+        int abs = 1;
+        long res = 0;
         if (str.charAt(0) == '-') abs = -1;
-        for (int i = (str.charAt(0) == '-' || str.charAt(0) == '+') ? 1 : 0; i < len; i++) {
-            if(str.charAt(i) < '0' || str.charAt(i) > '9') break;
+        for (int i = (str.charAt(0) == '+' || str.charAt(0) == '-') ? 1 : 0; i < len; i++) {
+            if (str.charAt(i) < '0' || str.charAt(i) > '9') break;
             res = res * 10 + (str.charAt(i)-'0');
             if (abs == 1 && res > Integer.MAX_VALUE) {
                 return Integer.MAX_VALUE;
-            } else if (abs == -1 && res * abs < Integer.MIN_VALUE) {
-                return Integer.MIN_VALUE ;
+            } else if (abs == -1 && abs * res < Integer.MIN_VALUE) {
+                return Integer.MIN_VALUE;
             }
         }
-        return (int)(abs * res);
+        return (int)(res * abs);
     }
 }
 ```

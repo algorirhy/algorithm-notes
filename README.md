@@ -28,7 +28,8 @@
 | 27 | [移除元素](https://leetcode-cn.com/problems/remove-element) | [Java](leetcode/0027-remove-element.md) | Easy |  |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](leetcode/0031-next-permutation.md) | Medium |  |
 | 32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses) | [Java](leetcode/0032-longest-valid-parentheses.md) | Hard | 动态规划 |
-| 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](leetcode/0034-find-first-and-last-position-of-element-in-sorted-array.md) | Medium |  |
+| 33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array) | [Java](leetcode/0033-search-in-rotated-sorted-array.md) | Medium | 二分查找 |
+| 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Java](leetcode/0034-find-first-and-last-position-of-element-in-sorted-array.md) | Medium | 二分查找 |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [Java](leetcode/0042-trapping-rain-water.md) | Hard |  |
 | 43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [Java](leetcode/0043-multiply-strings.md) | Medium |  |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium | 回溯算法 |
