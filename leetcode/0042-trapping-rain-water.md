@@ -12,25 +12,24 @@ min(left_max, right_max) - height[i]
 class Solution {
     public int trap(int[] height) {
         int res = 0;
-        int len = height.length;
-        if (len == 0) return res;
-        int left = 0, right = len - 1;
-        int left_max = 0, right_max = 0;
+        int left = 0, right = height.length - 1;
+        int leftMax = 0, rightMax = 0;
         while (left < right) {
             if (height[left] < height[right]) {
-                if (height[left] >= left_max) {
-                    left_max = height[left];
+                // 左边较低
+                if (height[left] >= leftMax) {
+                    // 更新左最大值
+                    leftMax = height[left++];
                 } else {
-                    res += left_max - height[left];
+                    // 计算高度差
+                    res += leftMax - height[left++];
                 }
-                left++;              
             } else {
-                if (height[right] >= right_max) {
-                    right_max = height[right];
+                if (height[right] >= rightMax) {
+                    rightMax = height[right--];
                 } else {
-                    res += right_max - height[right];
+                    res += rightMax - height[right--];
                 }
-                right--;  
             }
         }
         return res;
@@ -40,25 +39,24 @@ class Solution {
 
 ### 方法二
 
-利用栈
+单调栈
 
 ```java
 class Solution {
     public int trap(int[] height) {
-        int res = 0, cur = 0;
-        int len = height.length;
-        if (len == 0) return res;
+        int res = 0, curIndex = 0;
         Deque<Integer> s = new ArrayDeque<>();
-        while (cur < len) {
-            while (!s.isEmpty() && height[cur] > height[s.peek()]) {
+        while (curIndex < height.length) {
+            // 栈不为空且当前高度大于栈顶高度
+            while (!s.isEmpty() && height[curIndex] > height[s.peek()]) {
                 int top = s.pop();
                 if (s.isEmpty()) break;
-                int distance = cur - s.peek() - 1;
+                int distance = curIndex - s.peek() - 1;
                 // 左右高度的较小值与当前位置的高度差
-                int bound_height = Math.min(height[cur], height[s.peek()]) - height[top];
-                res += distance * bound_height;
+                int heightDiff = Math.min(height[s.peek()], height[curIndex]) - height[top];
+                res += distance * heightDiff;
             }
-            s.push(cur++);
+            s.push(curIndex++);
         }
         return res;
     }
