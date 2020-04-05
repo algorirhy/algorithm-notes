@@ -84,7 +84,7 @@
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [Java](leetcode/0142-linked-list-cycle-ii.md) | Medium |  |
 | 144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) | [Java](leetcode/0144-binary-tree-preorder-traversal.md) | Medium |  |
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) | [Java](leetcode/0145-binary-tree-postorder-traversal.md) | Hard |  |
-| 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |  |
+| 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium | 设计 |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [Java](leetcode/0151-reverse-words-in-a-string.md) | Medium |  |
 | 152 | [乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray) | [Java](leetcode/0152-maximum-product-subarray.md) | Meidum | 动态规划 |
 | 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii) | [Java](leetcode/0154-find-minimum-in-rotated-sorted-array-ii.md) | Hard |  |
@@ -129,6 +129,7 @@
 | 410 | [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum) | [Java](leetcode/0410-lsplit-array-largest-sum.md) | Hard |  |
 | 415 | [字符串相加](https://leetcode-cn.com/problems/add-strings) | [Java](leetcode/0415-add-strings.md) | Easy | 字符串 |
 | 416 | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum) | [Java](leetcode/0416-partition-equal-subset-sum.md) | Medium | 动态规划 |
+| 460 | [LFU缓存](https://leetcode-cn.com/problems/lfu-cache) | [Java](leetcode/0460-lfu-cache.md) | Hard | 设计 |
 | 468 | [验证IP地址](https://leetcode-cn.com/problems/validate-ip-address) | [Java](leetcode/0468-validate-ip-address.md) | Medium | 字符串 |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Java](leetcode/0509-fibonacci-number.md) | Easy |  |
 | 541 | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii) | [Java](leetcode/0541-reverse-string-ii.md) | Easy | 字符串 |
