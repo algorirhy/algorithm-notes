@@ -44,7 +44,7 @@ class Solution {
 ```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        List<List<Integer>> res = new ArrayList<>();
         if (root == null) return res;
         Deque<TreeNode> stack1 = new ArrayDeque<>();
         Deque<TreeNode> stack2 = new ArrayDeque<>();
@@ -55,17 +55,16 @@ class Solution {
             TreeNode cur = null;
             while (!stack1.isEmpty()) {
                 cur = stack1.pop();
+                list1.add(cur.val);
                 if (cur.left != null) stack2.push(cur.left);
                 if (cur.right != null) stack2.push(cur.right);
-                list1.add(cur.val);
             }
             if (!list1.isEmpty()) res.add(list1);
-
             while (!stack2.isEmpty()) {
                 cur = stack2.pop();
+                list2.add(cur.val);
                 if (cur.right != null) stack1.push(cur.right);
                 if (cur.left != null) stack1.push(cur.left);
-                list2.add(cur.val);
             }
             if (!list2.isEmpty()) res.add(list2);
         }

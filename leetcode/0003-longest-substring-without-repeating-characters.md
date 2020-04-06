@@ -11,8 +11,8 @@ class Solution {
         for (int left = 0, right = 0; right < s.length(); right++) {
             char ch = s.charAt(right);
             if (map.containsKey(ch)) {
-                // 上次出现的下一个下标
-                left = Math.max(map.get(ch), left);
+                // 判断上次出现该字符是否是在 left 之后
+                left = Math.max(left, map.get(ch));
             }
             map.put(ch, right + 1);
             max = Math.max(max, right - left + 1);

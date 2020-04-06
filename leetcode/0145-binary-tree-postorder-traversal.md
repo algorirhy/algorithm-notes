@@ -28,24 +28,25 @@ class Solution {
 ```java
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> res = new LinkedList<>();
-        Deque<TreeNode> stack = new ArrayDeque<>();
-        TreeNode p = root;
+        List<Integer> res = new ArrayList<>();
+        if (root == null) return res;
+        Deque<TreeNode> s = new ArrayDeque<>();
         TreeNode pre = null;
-        while (p != null || !stack.isEmpty()) {
-            while (p != null) {
-                stack.push(p);
-                p = p.left;
+        TreeNode cur = root;
+        while (!s.isEmpty() || cur != null) {
+            while (cur != null) {
+                s.push(cur);
+                cur = cur.left;
             }
-            p = stack.peek();
+            cur = s.peek();
             // 若没有右节点或者右节点已经访问过，则输出该节点值
-            if (p.right == null || pre == p.right) {
-                stack.pop();
-                res.add(p.val);
-                pre = p;
-                p = null;
+            if (cur.right == null || pre == cur.right) {
+                s.pop();
+                res.add(cur.val);
+                pre = cur;
+                cur = null;
             } else {
-                p = p.right;
+                cur = cur.right;
             }
         }
         return res;
