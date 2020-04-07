@@ -7,13 +7,13 @@
 ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>(k);
         for (int num : nums) {
             if (pq.size() < k) {
-                pq.add(num);
+                pq.offer(num);
             } else if (num > pq.peek()) {
-                pq.remove();
-                pq.add(num);
+                pq.poll();
+                pq.offer(num);
             }
         }
         return pq.peek();

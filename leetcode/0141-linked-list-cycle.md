@@ -1,6 +1,6 @@
 # [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 
-使用快慢指针
+快慢指针
 
 ```java
 public class Solution {
