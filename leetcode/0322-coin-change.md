@@ -2,17 +2,45 @@
 
 ### 方法一
 
-自下而上
+贪心 + DFS
 
 ```java
 class Solution {
-
+    private int res = Integer.MAX_VALUE;
+    
     public int coinChange(int[] coins, int amount) {
-        int max = amount + 1;
-        int[] dp = new int[max];
-        Arrays.fill(dp, max);
+        if(amount == 0) return 0;
+        Arrays.sort(coins);
+        change(coins, amount, coins.length - 1, 0);
+        return res == Integer.MAX_VALUE ? -1 : res;
+    }
+
+    private void change(int[] coins, int amount, int index, int count) {
+        if (amount == 0) {
+            res = Math.min(res, count);
+            return;
+        }
+        if (index < 0) return;
+        for (int k = amount / coins[index]; k >= 0 && count + k < res; k--) {
+            change(coins, amount - k * coins[index], index - 1, count + k);
+        }
+    }
+}
+```
+
+### 方法二
+
+动态规划
+
+f(n) = min{f(n-1), f(n-2), f(n-5)} + 1
+
+```java
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, amount + 1);
         dp[0] = 0;
-        for (int i = 1; i < max; i++) {
+        for (int i = 1; i <= amount; i++) {
             for (int coin : coins) {
                 if (coin <= i) {
                     dp[i] = Math.min(dp[i], dp[i - coin] + 1);
@@ -20,37 +48,6 @@ class Solution {
             }
         }
         return dp[amount] > amount ? -1 : dp[amount];
-    }
-}
-```
-
-### 方法二
-
-自顶向下
-
-```java
-class Solution {
-    
-    public int coinChange(int[] coins, int amount) {
-        if (amount < 1) return 0;
-        return coinChange(coins, amount, new int[amount + 1]);
-    }
-    
-
-    private int coinChange(int[] coins, int amount, int[] count) {
-        if (amount < 0) return -1;
-        if (amount == 0) return 0;
-        if (count[amount] != 0) return count[amount];
-        int min = Integer.MAX_VALUE;
-
-        for (int coin : coins) {
-            int res = coinChange(coins, amount - coin, count);
-            if (res >= 0 && res < min) {
-                min = res + 1;
-            }
-        }
-        count[amount] = (min == Integer.MAX_VALUE) ? -1 : min;
-        return count[amount]; 
     }
 }
 ```

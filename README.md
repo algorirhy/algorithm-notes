@@ -112,6 +112,7 @@
 | 260 | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) | [Java](leetcode/0260-single-number-iii.md) | Medium |  |
 | 263 | [丑数](https://leetcode-cn.com/problems/ugly-number) | [Java](leetcode/0263-ugly-number.md) | Easy |  |
 | 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | [Java](leetcode/0264-ugly-number-ii.md) | Medium |  |
+| 279 | [完全平方数](https://leetcode-cn.com/problems/perfect-squares) | [Java](leetcode/0279-perfect-squares.md) | Medium | 动态规划 |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |  |
 | 289 | [生命游戏](https://leetcode-cn.com/problems/game-of-life) | [Java](leetcode/0289-game-of-life.md) | Medium | 数组 |
 | 295 | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) | [Java](leetcode/0295-find-median-from-data-stream.md) | Hard |  |
