@@ -3,19 +3,17 @@
 ```java
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
-        int n = gas.length;
-        int total_tank = 0;
-        int curr_tank = 0;
-        int start_station = 0;
-        for (int i = 0; i < n; i++) {
-            total_tank += gas[i] - cost[i];
-            curr_tank += gas[i] - cost[i];
-            if(curr_tank < 0){
-                start_station = i + 1;
-                curr_tank = 0;
+        // 遇到第一个无法到达的点 i，直接更换起始点为 i+1
+        int total = 0, sum = 0, start = 0;
+        for (int i = 0; i < gas.length; i++) {
+            total += gas[i] - cost[i];
+            sum += gas[i] - cost[i];
+            if (sum < 0) {
+                sum = 0;
+                start = i + 1;
             }
         }
-        return total_tank >= 0 ? start_station : -1;
+        return total < 0 ? -1 : start;
     }
 }
 ```

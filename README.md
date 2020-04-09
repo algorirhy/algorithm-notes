@@ -7,7 +7,7 @@
 | 1 | [两数之和](https://leetcode-cn.com/problems/two-sum) | [Java](leetcode/0001-two-sum.md) | Easy |  |
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [Java](leetcode/0002-add-two-numbers.md) | Medium |  |
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](leetcode/0003-longest-substring-without-repeating-characters.md) | Medium | 滑动窗口 |
-| 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) | [Java](leetcode/0005-longest-palindromic-substring.md) | Medium |  |
+| 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) | [Java](leetcode/0005-longest-palindromic-substring.md) | Medium | 动态规划 |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) | [Java](leetcode/0007-reverse-integer.md) | Easy |  |
 | 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [Java](leetcode/0008-string-to-integer-atoi.md) | Medium |  |
 | 9 | [回文数](https://leetcode-cn.com/problems/palindrome-number) | [Java](leetcode/0009-palindrome-number.md) | Easy |  |
@@ -21,7 +21,7 @@
 | 19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) | [Java](leetcode/0019-remove-nth-node-from-end-of-list.md) | Medium |  |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | [Java](leetcode/0020-valid-parentheses.md) | Easy |  |
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | [Java](leetcode/0021-merge-two-sorted-lists.md) | Easy |  |
-| 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [Java](leetcode/0022-generate-parentheses.md) | Medium |  |
+| 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [Java](leetcode/0022-generate-parentheses.md) | Medium | 回溯搜索 |
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [Java](leetcode/0024-swap-nodes-in-pairs.md) | Medium |  |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [Java](leetcode/0025-reverse-nodes-in-k-group.md) | Hard | 链表 |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy |  |
@@ -49,6 +49,7 @@
 | 69 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx) | [Java](leetcode/0069-sqrtx.md) | Easy | 二分查找 |
 | 70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs) | [Java](leetcode/0070-climbing-stairs.md) | Easy | 动态规划 |
 | 72 | [编辑距离](https://leetcode-cn.com/problems/edit-distance) | [Java](leetcode/0072-edit-distance.md) | Hard | 动态规划 |
+| 76 | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring) | [Java](leetcode/0076-minimum-window-substring.md) | Hard | 滑动窗口 |
 | 78 | [子集](https://leetcode-cn.com/problems/subsets) | [Java](leetcode/0078-subsets.md) | Medium | 回溯搜索 |
 | 79 | [单词搜索](https://leetcode-cn.com/problems/word-search) | [Java](leetcode/0079-word-search.md) | Medium |  |
 | 81 | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii) | [Java](leetcode/0081-search-in-rotated-sorted-array-ii.md) | Medium | 二分查找 |
