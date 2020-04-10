@@ -4,7 +4,7 @@
 class Solution {
     public String reverseWords(String s) {
         s = s.trim();
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         int end = s.length();
         for (int begin = s.length() - 1; begin >= 0; begin--) {
             if (s.charAt(begin) == ' ') {

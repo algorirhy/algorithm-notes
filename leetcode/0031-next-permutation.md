@@ -5,18 +5,18 @@ class Solution {
     public void nextPermutation(int[] nums) {
         int len = nums.length;
         int index = -1;
-        //从后往前扫描找到第一个下标i使得nums[i] < nums[i + 1]
-        for ( int i = len - 2; i >= 0; i--) {
+         // 从后往前扫描找到第一个下标i使得nums[i] < nums[i + 1]
+        for (int i = len - 2; i>= 0; i--) {
             if (nums[i] < nums[i + 1]) {
                 index = i;
                 break;
             }
         }
         if (index != -1) {
-            //从后往前扫描找到找到第一个下标j使得nums[j] > nums[i]
-            for (int j = len - 1; j > index; j--) {
-                if (nums[j] > nums[index]) {
-                    swap(nums,index, j);
+            // 从后往前扫描找到找到第一个下标j使得nums[i] > nums[index]
+            for (int i = len - 1; i > index; i--) {
+                if (nums[i] > nums[index]) {
+                    swap(nums, i, index);
                     break;
                 }
             }
