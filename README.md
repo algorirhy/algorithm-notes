@@ -147,6 +147,7 @@
 | 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |  |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
+| 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划 + 二分 |
 | 892 | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | [Java](leetcode/0892-surface-area-of-3d-shapes.md) | Easy |  |
 | 912 | [排序数组](https://leetcode-cn.com/problems/sort-an-array) | [Java](leetcode/0912-sort-an-array.md) | Medium | 排序算法 |
 | 914 | [卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards) | [Java](leetcode/0914-x-of-a-kind-in-a-deck-of-cards.md) | Easy |  |
