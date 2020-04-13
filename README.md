@@ -125,6 +125,7 @@
 | 343 | [整数拆分](https://leetcode-cn.com/problems/integer-break) | [Java](leetcode/0343-integer-break.md) | Medium |  |
 | 344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string) | [Java](leetcode/0344-reverse-string.md) | Easy | 字符串 |
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements) | [Java](leetcode/0347-top-k-frequent-elements.md) | Medium |  |
+| 355 | [设计推特](https://leetcode-cn.com/problems/design-twitter) | [Java](leetcode/0355-design-twitter.md) | Medium | 设计 |
 | 365 | [水壶问题](https://leetcode-cn.com/classic/problems/water-and-jug-problem) | [Java](leetcode/0365-water-and-jug-problem.md) | Medium |  |
 | 384 | [打乱数组](https://leetcode-cn.com/problems/shuffle-an-array) | [Java](leetcode/0384-shuffle-an-array.md) | Medium | |
 | 400 | [第N个数字](https://leetcode-cn.com/problems/nth-digit) | [Java](leetcode/0400-nth-digit.md) | Medium |  |

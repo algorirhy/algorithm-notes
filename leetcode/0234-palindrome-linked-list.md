@@ -7,16 +7,16 @@ class Solution {
             return true;
         }
         ListNode slow = head, fast = head;
-        ListNode pre = null, prepre = null;
-        //快慢指针，边走边反转
+        ListNode pre = null, prePre = null;
+        // 快慢指针，边走边反转
         while (fast != null && fast.next != null) {
             pre = slow;
             slow = slow.next;
             fast = fast.next.next;
-            pre.next = prepre;
-            prepre = pre;
+            pre.next = prePre;
+            prePre = pre;
         }
-        //节点为奇数，从中点下一位开始比较
+        // 节点为奇数，从中点下一位开始比较
         if (fast != null) {
             slow = slow.next;
         }
