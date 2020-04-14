@@ -1,4 +1,4 @@
-# [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+# [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 
 ```java
 class Solution {
@@ -8,8 +8,6 @@ class Solution {
             int mid = left + (right - left) / 2;
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
-            } else if (nums[mid] == nums[right]) {
-                right--;
             } else {
                 right = mid;
             }
