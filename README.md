@@ -11,8 +11,8 @@
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) | [Java](leetcode/0007-reverse-integer.md) | Easy |  |
 | 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [Java](leetcode/0008-string-to-integer-atoi.md) | Medium |  |
 | 9 | [回文数](https://leetcode-cn.com/problems/palindrome-number) | [Java](leetcode/0009-palindrome-number.md) | Easy |  |
-| 10 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching) | [Java](leetcode/0010-regular-expression-matching.md) | Hard |  |
-| 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [Java](leetcode/0011-container-with-most-water.md) | Medium |  |
+| 10 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching) | [Java](leetcode/0010-regular-expression-matching.md) | Hard | 动态规划 |
+| 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | [Java](leetcode/0011-container-with-most-water.md) | Medium | 双指针 |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) | [Java](leetcode/0012-integer-to-roman.md) | Medium |  |
 | 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer) | [Java](leetcode/0013-roman-to-integer.md) | Easy |  |
 | 14 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | [Java](leetcode/0014-longest-common-prefix.md) | Easy |  |
@@ -139,6 +139,7 @@
 | 468 | [验证IP地址](https://leetcode-cn.com/problems/validate-ip-address) | [Java](leetcode/0468-validate-ip-address.md) | Medium |  |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Java](leetcode/0509-fibonacci-number.md) | Easy |  |
 | 541 | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii) | [Java](leetcode/0541-reverse-string-ii.md) | Easy |  |
+| 542 | [01 矩阵](https://leetcode-cn.com/problems/01-matrix) | [Java](leetcode/0542-01-matrix.md) | Medium | 动态规划 |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |  |
 | 557 | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii) | [Java](leetcode/0557-reverse-words-in-a-string-iii.md) | Easy |  |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |  |
