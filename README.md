@@ -154,8 +154,10 @@
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
 | 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划 + 二分 |
 | 892 | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | [Java](leetcode/0892-surface-area-of-3d-shapes.md) | Easy |  |
+| 905 | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity) | [Java](leetcode/0905-sort-array-by-parity.md) | Easy | 双指针 |
 | 912 | [排序数组](https://leetcode-cn.com/problems/sort-an-array) | [Java](leetcode/0912-sort-an-array.md) | Medium | 排序算法 |
 | 914 | [卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards) | [Java](leetcode/0914-x-of-a-kind-in-a-deck-of-cards.md) | Easy |  |
+| 922 | [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii) | [Java](leetcode/0922-sort-array-by-parity-ii.md) | Easy | 双指针 |
 | 945 | [使数组唯一的最小增量](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique) | [Java](leetcode/0945-minimum-increment-to-make-array-unique.md) | Medium |  |
 | 946 | [验证栈序列](https://leetcode-cn.com/classic/problems/validate-stack-sequences) | [Java](leetcode/0946-validate-stack-sequences.md) | Medium |  |
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |  |
@@ -173,6 +175,7 @@
 | lcci-0107 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | [Java](leetcode/lcci-0107-rotate-matrix.md) | Medium |  |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |  |
 | lcci-1006 | [字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci) | [Java](leetcode/lcci-1006-compress-string.md) | Easy |  |
+| lcci-1709 | [第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci) | [Java](leetcode/lcci-1709-get-kth-magic-number.md) | Medium | |
 | lcci-1716 | [按摩师](https://leetcode-cn.com/problems/the-masseuse-lcci) | [Java](leetcode/lcci-1716-the-masseuse.md) | Easy |  |
 
 
