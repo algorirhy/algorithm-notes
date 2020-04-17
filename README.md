@@ -41,6 +41,7 @@
 | 51 | [N皇后](https://leetcode-cn.com/problems/n-queens) | [Java](leetcode/0051-n-queens.md) | Hard | 回溯搜索 |
 | 53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray) | [Java](leetcode/0053-maximum-subarray.md) | Easy | 动态规划 |
 | 54 | [螺旋矩阵](https://leetcode-cn.com/classic/problems/spiral-matrix) | [Java](leetcode/0054-spiral-matrix.md) | Medium |  |
+| 55 | [跳跃游戏](https://leetcode-cn.com/problems/jump-game) | [Java](leetcode/0055-jump-game.md) | Medium | 逆推 |
 | 56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Java](leetcode/0056-merge-intervals.md) | Medium |  |
 | 62 | [不同路径](https://leetcode-cn.com/problems/unique-paths) | [Java](leetcode/0062-unique-paths.md) | Medium | 动态规划 |
 | 64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum) | [Java](leetcode/0064-minimum-path-sum.md) | Medium | 动态规划 |
