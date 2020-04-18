@@ -12,9 +12,9 @@ class Solution {
             char ch = s.charAt(right);
             if (map.containsKey(ch)) {
                 // 判断上次出现该字符是否是在 left 之后
-                left = Math.max(left, map.get(ch));
+                left = Math.max(left, map.get(ch) + 1);
             }
-            map.put(ch, right + 1);
+            map.put(ch, right);
             max = Math.max(max, right - left + 1);
         }
         return max;
