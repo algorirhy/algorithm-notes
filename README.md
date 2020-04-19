@@ -137,6 +137,7 @@
 | 416 | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum) | [Java](leetcode/0416-partition-equal-subset-sum.md) | Medium | 动态规划 |
 | 445 | [两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii) | [Java](leetcode/0445-add-two-numbers-ii.md) | Medium |  |
 | 460 | [LFU缓存](https://leetcode-cn.com/problems/lfu-cache) | [Java](leetcode/0460-lfu-cache.md) | Hard |  |
+| 466 | [统计重复个数](https://leetcode-cn.com/problems/count-the-repetitions) | [Java](leetcode/0466-count-the-repetitions.md) | Hard | |
 | 468 | [验证IP地址](https://leetcode-cn.com/problems/validate-ip-address) | [Java](leetcode/0468-validate-ip-address.md) | Medium |  |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Java](leetcode/0509-fibonacci-number.md) | Easy |  |
 | 541 | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii) | [Java](leetcode/0541-reverse-string-ii.md) | Easy |  |
