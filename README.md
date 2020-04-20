@@ -103,6 +103,7 @@
 | 208 | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | [Java](leetcode/0208-implement-trie-prefix-tree.md) | Medium |  |
 | 213 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii) | [Java](leetcode/0213-house-robber-ii.md) | Medium |  |
 | 215 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array) | [Java](leetcode/0215-kth-largest-element-in-an-array.md) | Medium | 堆、快速排序 |
+| 223 | [矩形面积](https://leetcode-cn.com/problems/rectangle-area) | [Java](leetcode/0223-rectangle-area.md) | Medium |  |
 | 225 | [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues) | [Java](leetcode/0225-implement-stack-using-queues.md) | Easy |  |
 | 226 | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree) | [Java](leetcode/0226-invert-binary-tree.md) | Easy |  |
 | 232 | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks) | [Java](leetcode/0232-implement-queue-using-stacks.md) | Easy |                 |

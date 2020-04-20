@@ -5,7 +5,7 @@ class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
-        backTrack(nums, 0, res, new ArrayList<Integer>());
+        backTrack(nums, 0, res, new ArrayList<>());
         return res;
     }
 

@@ -8,7 +8,7 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        backTrack(nums, 0, res, new ArrayList<Integer>());
+        backTrack(nums, 0, res, new ArrayList<>());
         return res;
     }
 
