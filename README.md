@@ -174,6 +174,7 @@
 | 1143 | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence) | [Java](leetcode/1143-longest-common-subsequence.md) | Medium | 动态规划 |
 | 1160 | [拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters) | [Java](leetcode/1160-find-words-that-can-be-formed-by-characters.md) | Easy |  |
 | 1162 | [地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible) | [Java](leetcode/1162-as-far-from-land-as-possible.md) | Medium | BFS |
+| 1248 | [统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays) | [Java](leetcode/1248-count-number-of-nice-subarrays.md) | Medium | 滑动窗口 |
 | lcci-0107 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | [Java](leetcode/lcci-0107-rotate-matrix.md) | Medium |  |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |  |
 | lcci-1006 | [字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci) | [Java](leetcode/lcci-1006-compress-string.md) | Easy |  |
@@ -183,7 +184,7 @@
 
 
 
-### 剑指Offer
+### 剑指 Offer
 
 |**#**|Title|**Solution**|**Difficulty**|Tag|
 | :---: | :---: | :---: | :---: | :---: |
