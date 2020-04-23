@@ -98,6 +98,7 @@
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) | [Java](leetcode/0189-rotate-array.md) | Easy |  |
 | 191 | [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits) | [Java](leetcode/0191-number-of-1-bits.md) | Easy |  |
 | 198 | [打家劫舍](https://leetcode-cn.com/problems/house-robber) | [Java](leetcode/0198-house-robber.md) | Easy |  |
+| 199 | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Java](leetcode/0199-binary-tree-right-side-view.md) | Medium | |
 | 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands) | [Java](leetcode/0200-number-of-islands.md) | Medium | 回溯搜索 |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [Java](leetcode/0206-reverse-linked-list.md) | Easy |  |
 | 208 | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | [Java](leetcode/0208-implement-trie-prefix-tree.md) | Medium |  |
@@ -176,6 +177,7 @@
 | 1162 | [地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible) | [Java](leetcode/1162-as-far-from-land-as-possible.md) | Medium | BFS |
 | 1248 | [统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays) | [Java](leetcode/1248-count-number-of-nice-subarrays.md) | Medium | 滑动窗口 |
 | lcci-0107 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | [Java](leetcode/lcci-0107-rotate-matrix.md) | Medium |  |
+| lcci-0811 | [硬币](https://leetcode-cn.com/problems/coin-lcci) | [Java](leetcode/lcci-0811-coin.md) | Medium | 动态规划 |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |  |
 | lcci-1006 | [字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci) | [Java](leetcode/lcci-1006-compress-string.md) | Easy |  |
 | lcci-1709 | [第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci) | [Java](leetcode/lcci-1709-get-kth-magic-number.md) | Medium | |
