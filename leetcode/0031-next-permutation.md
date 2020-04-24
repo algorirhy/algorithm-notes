@@ -13,10 +13,10 @@ class Solution {
             }
         }
         if (index != -1) {
-            // 从后往前扫描找到找到第一个下标j使得nums[i] > nums[index]
-            for (int i = len - 1; i > index; i--) {
-                if (nums[i] > nums[index]) {
-                    swap(nums, i, index);
+            // 从后往前扫描找到找到第一个下标j使得nums[j] > nums[index]
+            for (int j = len - 1; j > index; j--) {
+                if (nums[j] > nums[index]) {
+                    swap(nums, j, index);
                     break;
                 }
             }

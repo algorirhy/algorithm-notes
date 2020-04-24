@@ -7,12 +7,12 @@
 ```java
 class Solution {
     private int res = Integer.MAX_VALUE;
-    
+
     public int coinChange(int[] coins, int amount) {
-        if(amount == 0) return 0;
+        if (amount == 0) return 0;
         Arrays.sort(coins);
         change(coins, amount, coins.length - 1, 0);
-        return res == Integer.MAX_VALUE ? -1 : res;
+        return res > amount ? -1 : res;
     }
 
     private void change(int[] coins, int amount, int index, int count) {
