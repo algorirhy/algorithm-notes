@@ -1,31 +1,26 @@
 # [全排列](https://leetcode-cn.com/problems/permutations/)
 
-### 普通版
-
 ```java
 class Solution {
-    List<Integer> path = new ArrayList<>();
-    List<List<Integer>> res = new ArrayList<>();
-
     public List<List<Integer>> permute(int[] nums) {
         int len = nums.length;
-        if(len == 0)
-            return res;
+        List<List<Integer>> res = new ArrayList<>();
+        if (len == 0) return res;
         boolean[] used = new boolean[len];
-        traceBack(nums, used);
+        backTrack(nums, used, res, new ArrayList<>());
         return res;
     }
 
-    private void traceBack(int[] nums, boolean[] used){
-        if(path.size() == nums.length){
+    private void backTrack(int[] nums, boolean[] used, List res, List path) {
+        if (path.size() == nums.length) {
             res.add(new ArrayList<>(path));
             return;
         }
-        for(int i = 0; i < nums.length; i++){
-            if(!used[i]){
+        for (int i = 0; i < nums.length; i++) {
+            if(!used[i]) {
                 path.add(nums[i]);
                 used[i] = true;
-                traceBack(nums, used);
+                backTrack(nums, used, res, path);
                 used[i] = false;
                 path.remove(path.size() - 1);
             }
@@ -34,7 +29,7 @@ class Solution {
 }
 ```
 
-### 改良版
+改良版
 
 ```java
 class Solution {
