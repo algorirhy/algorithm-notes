@@ -22,6 +22,7 @@
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | [Java](leetcode/0020-valid-parentheses.md) | Easy |  |
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | [Java](leetcode/0021-merge-two-sorted-lists.md) | Easy |  |
 | 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses) | [Java](leetcode/0022-generate-parentheses.md) | Medium | 回溯搜索 |
+| 23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) | [Java](leetcode/0023-merge-k-sorted-lists.md) | Hard |  |
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [Java](leetcode/0024-swap-nodes-in-pairs.md) | Medium |  |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [Java](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |  |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy |  |
