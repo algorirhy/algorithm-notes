@@ -168,6 +168,7 @@
 | 999 | [车的可用捕获量](https://leetcode-cn.com/problems/available-captures-for-rook) | [Java](leetcode/0999-available-captures-for-rook.md) | Easy |  |
 | 1013 | [将数组分成和相等的三个部分](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum) | [Java](leetcode/1013-partition-array-into-three-parts-with-equal-sum.md) | Easy |  |
 | 1071 | [字符串的最大公因子](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings) | [Java](leetcode/1071-greatest-common-divisor-of-strings.md) | Easy |  |
+| 1095 | [山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array) | [Java](leetcode/1095-find-in-mountain-array.md) | Hard | 二分查找 |
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |  |
 | 1108 | [IP 地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address) | [Java](leetcode/1108-defanging-an-ip-address.md) | Easy |  |
 | 1111 | [有效括号的嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) | [Java](leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings.md) | Meidum |  |
