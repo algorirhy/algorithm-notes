@@ -90,7 +90,7 @@
 | 146 | [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) | [Java](leetcode/0146-lru-cache.md) | Medium |  |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) | [Java](leetcode/0151-reverse-words-in-a-string.md) | Medium |  |
 | 152 | [乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray) | [Java](leetcode/0152-maximum-product-subarray.md) | Meidum | 动态规划 |
-| 153 | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [Java](leetcode/0153-find-minimum-in-rotated-sorted-array.md) | Medium | 二分查找 |
+| 153 | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array) | [Java](leetcode/0153-find-minimum-in-rotated-sorted-array.md) | Medium | 二分查找 |
 | 154 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii) | [Java](leetcode/0154-find-minimum-in-rotated-sorted-array-ii.md) | Hard | 二分查找 |
 | 155 | [最小栈](https://leetcode-cn.com/problems/min-stack) | [Java](leetcode/0155-min-stack.md) | Easy |  |
 | 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | [Java](leetcode/0160-intersection-of-two-linked-lists.md) | Easy |  |
@@ -101,6 +101,7 @@
 | 198 | [打家劫舍](https://leetcode-cn.com/problems/house-robber) | [Java](leetcode/0198-house-robber.md) | Easy |  |
 | 199 | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Java](leetcode/0199-binary-tree-right-side-view.md) | Medium | |
 | 200 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands) | [Java](leetcode/0200-number-of-islands.md) | Medium | 回溯搜索 |
+| 202 | [快乐数](https://leetcode-cn.com/problems/happy-number) | [Java](leetcode/0202-happy-number.md) | Easy | 快慢指针 |
 | 206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [Java](leetcode/0206-reverse-linked-list.md) | Easy |  |
 | 208 | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree) | [Java](leetcode/0208-implement-trie-prefix-tree.md) | Medium |  |
 | 213 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii) | [Java](leetcode/0213-house-robber-ii.md) | Medium |  |
