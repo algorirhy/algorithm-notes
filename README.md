@@ -35,6 +35,7 @@
 | 40 | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii) | [Java](leetcode/0040-combination-sum-ii.md) | Medium | 回溯搜索 |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | [Java](leetcode/0042-trapping-rain-water.md) | Hard | 双指针、单调栈 |
 | 43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings) | [Java](leetcode/0043-multiply-strings.md) | Medium |  |
+| 45 | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii) | [Java](leetcode/0045-jump-game-ii.md) | Hard | 贪心 |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations) | [Java](leetcode/0046-permutations.md) | Medium | 回溯搜索 |
 | 47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii) | [Java](leetcode/0047-permutations-ii.md) | Medium | 回溯搜索 |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [Java](leetcode/0048-rotate-image.md) | Medium |  |
