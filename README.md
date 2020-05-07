@@ -149,6 +149,7 @@
 | 542 | [01 矩阵](https://leetcode-cn.com/problems/01-matrix) | [Java](leetcode/0542-01-matrix.md) | Medium | 动态规划 |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |  |
 | 557 | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii) | [Java](leetcode/0557-reverse-words-in-a-string-iii.md) | Easy |  |
+| 572 | [另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree) | [Java](leetcode/0572-subtree-of-another-tree.md) | Easy | |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |  |
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) | [Java](leetcode/0695-max-area-of-island.md) | Medium |  |
 | 700 | [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree) | [Java](leetcode/0700-search-in-a-binary-search-tree.md) | Easy |  |
