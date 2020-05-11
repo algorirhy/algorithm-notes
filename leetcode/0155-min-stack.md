@@ -2,35 +2,33 @@
 
 ```java
 class MinStack {
-
-    private LinkedList<Integer> dataStack, minStack;
+    private Deque<Integer> dataStack, minStack;
 
     public MinStack() {
-        dataStack = new LinkedList<>();
-        minStack = new LinkedList<>();
+        dataStack = new ArrayDeque<>();
+        minStack = new ArrayDeque<>();
     }
     
     public void push(int x) {
-        dataStack.addFirst(x);
-        if (minStack.isEmpty() || minStack.peekFirst() >= x) {
-            minStack.addFirst(x);
+        dataStack.push(x);
+        if (minStack.isEmpty() || minStack.peek() >= x) {
+            minStack.push(x);
         } 
     }
     
     public void pop() {
-        //使用 == 报错
-        if(dataStack.peekFirst().equals(minStack.peekFirst())){
-            minStack.removeFirst();
+        if(dataStack.peek().equals(minStack.peek())){
+            minStack.pop();
         }
-        dataStack.removeFirst();
+        dataStack.pop();
     }
     
     public int top() {
-        return dataStack.peekFirst();
+        return dataStack.peek();
     }
     
     public int getMin() {
-        return minStack.peekFirst();
+        return minStack.peek();
     }
 }
 ```
