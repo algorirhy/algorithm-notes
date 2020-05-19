@@ -154,6 +154,7 @@
 | 560 | [和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k) | [Java](leetcode/0560-subarray-sum-equals-k.md) | Medium | 前缀和 |
 | 572 | [另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree) | [Java](leetcode/0572-subtree-of-another-tree.md) | Easy | |
 | 641 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque) | [Java](leetcode/0641-design-circular-deque.md) | Medium |  |
+| 680 | [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii) | [Java](leetcode/0680-valid-palindrome-ii.md) | Easy | 双指针 |
 | 695 | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island) | [Java](leetcode/0695-max-area-of-island.md) | Medium |  |
 | 700 | [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree) | [Java](leetcode/0700-search-in-a-binary-search-tree.md) | Easy |  |
 | 703 | [数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream) | [Java](leetcode/0703-kth-largest-element-in-a-stream.md) | Easy |  |
