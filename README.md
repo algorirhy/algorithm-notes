@@ -186,6 +186,7 @@
 | 1160 | [拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters) | [Java](leetcode/1160-find-words-that-can-be-formed-by-characters.md) | Easy |  |
 | 1162 | [地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible) | [Java](leetcode/1162-as-far-from-land-as-possible.md) | Medium | BFS |
 | 1248 | [统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays) | [Java](leetcode/1248-count-number-of-nice-subarrays.md) | Medium | 滑动窗口 |
+| 1371 | [每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts) | [Java](leetcode/1371-find-the-longest-substring-containing-vowels-in-even-counts.md) | Medium | 前缀和、位运算 |
 | lcci-0107 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | [Java](leetcode/lcci-0107-rotate-matrix.md) | Medium |  |
 | lcci-0811 | [硬币](https://leetcode-cn.com/problems/coin-lcci) | [Java](leetcode/lcci-0811-coin.md) | Medium | 动态规划 |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |  |
