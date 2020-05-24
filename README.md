@@ -7,6 +7,7 @@
 | 1 | [两数之和](https://leetcode-cn.com/problems/two-sum) | [Java](leetcode/0001-two-sum.md) | Easy |  |
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [Java](leetcode/0002-add-two-numbers.md) | Medium |  |
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](leetcode/0003-longest-substring-without-repeating-characters.md) | Medium | 滑动窗口 |
+| 4 | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays) | [Java](leetcode/0004-median-of-two-sorted-arrays.md) | Hard | 二分查找 |
 | 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) | [Java](leetcode/0005-longest-palindromic-substring.md) | Medium | 动态规划 |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) | [Java](leetcode/0007-reverse-integer.md) | Easy |  |
 | 8 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi) | [Java](leetcode/0008-string-to-integer-atoi.md) | Medium |  |
@@ -163,7 +164,7 @@
 | 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |  |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
-| 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划 + 二分 |
+| 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划、二分 |
 | 892 | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | [Java](leetcode/0892-surface-area-of-3d-shapes.md) | Easy |  |
 | 905 | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity) | [Java](leetcode/0905-sort-array-by-parity.md) | Easy | 双指针 |
 | 912 | [排序数组](https://leetcode-cn.com/problems/sort-an-array) | [Java](leetcode/0912-sort-an-array.md) | Medium | 排序算法 |
