@@ -125,6 +125,7 @@
 | 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | [Java](leetcode/0264-ugly-number-ii.md) | Medium |  |
 | 279 | [完全平方数](https://leetcode-cn.com/problems/perfect-squares) | [Java](leetcode/0279-perfect-squares.md) | Medium | 动态规划 |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |  |
+| 287 | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number) | [Java](leetcode/0287-find-the-duplicate-number.md) | Medium | 二分查找 |
 | 289 | [生命游戏](https://leetcode-cn.com/problems/game-of-life) | [Java](leetcode/0289-game-of-life.md) | Medium |  |
 | 295 | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) | [Java](leetcode/0295-find-median-from-data-stream.md) | Hard |  |
 | 297 | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) | [Java](leetcode/0297-serialize-and-deserialize-binary-tree.md) | Hard |  |
