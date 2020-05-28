@@ -139,6 +139,7 @@
 | 355 | [设计推特](https://leetcode-cn.com/problems/design-twitter) | [Java](leetcode/0355-design-twitter.md) | Medium |  |
 | 365 | [水壶问题](https://leetcode-cn.com/classic/problems/water-and-jug-problem) | [Java](leetcode/0365-water-and-jug-problem.md) | Medium |  |
 | 384 | [打乱数组](https://leetcode-cn.com/problems/shuffle-an-array) | [Java](leetcode/0384-shuffle-an-array.md) | Medium | |
+| 394 | [字符串解码](https://leetcode-cn.com/problems/decode-string) | [Java](leetcode/0394-decode-string.md) | Medium | 栈 |
 | 400 | [第N个数字](https://leetcode-cn.com/problems/nth-digit) | [Java](leetcode/0400-nth-digit.md) | Medium |  |
 | 409 | [最长回文串](https://leetcode-cn.com/problems/longest-palindrome) | [Java](leetcode/0409-longest-palindrome.md) | Easy |  |
 | 410 | [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum) | [Java](leetcode/0410-lsplit-array-largest-sum.md) | Hard |  |
