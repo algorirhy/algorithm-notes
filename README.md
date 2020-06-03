@@ -164,6 +164,7 @@
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [Java](leetcode/0709-to-lower-case.md) | Easy |  |
 | 739 | [每日温度](https://leetcode-cn.com/problems/daily-temperatures) | [Java](leetcode/0739-daily-temperatures.md) | Medium | 单调栈 |
 | 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |  |
+| 837 | [新21点](https://leetcode-cn.com/problems/new-21-game) | [Java](leetcode/0837-new-21-game.md) | Mediun | 动态规划 |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
 | 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划、二分 |
