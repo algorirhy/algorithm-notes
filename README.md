@@ -79,6 +79,7 @@
 | 113 | [路径总和 II](https://leetcode-cn.com/classic/problems/path-sum-ii) | [Java](leetcode/0113-path-sum-ii.md) | Medium |  |
 | 120 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle) | [Java](leetcode/0120-triangle.md) | Medium | 动态规划 |
 | 121 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) | [Java](leetcode/0121-best-time-to-buy-and-sell-stock.md) | Easy |  |
+| 128 | [最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence) | [Java](leetcode/0129-longest-consecutive-sequence.md) | Hard | |
 | 130 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions) | [Java](leetcode/0130-surrounded-regions.md) | Medium | DFS |
 | 134 | [加油站](https://leetcode-cn.com/problems/gas-station) | [Java](leetcode/0134-gas-station.md) | Medium |  |
 | 136 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) | [Java](leetcode/0136-single-number.md) | Easy | 位运算 |
