@@ -180,6 +180,7 @@
 | 946 | [验证栈序列](https://leetcode-cn.com/classic/problems/validate-stack-sequences) | [Java](leetcode/0946-validate-stack-sequences.md) | Medium |  |
 | 974 | [和可被 K 整除的子数组](https://leetcode-cn.com/problems/subarray-sums-divisible-by-k) | [Java](leetcode/0974-subarray-sums-divisible-by-k.md) | Medium | 前缀和 |
 | 983 | [最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets) | [Java](leetcode/0983-minimum-cost-for-tickets.md) | Medium | 动态规划 |
+| 990 | [等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations) | [Java](leetcode/0990-satisfiability-of-equality-equations.md) | Medium | 并查集 |
 | 994 | [腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges) | [Java](leetcode/0994-rotting-oranges.md) | Easy |  |
 | 999 | [车的可用捕获量](https://leetcode-cn.com/problems/available-captures-for-rook) | [Java](leetcode/0999-available-captures-for-rook.md) | Easy |  |
 | 1013 | [将数组分成和相等的三个部分](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum) | [Java](leetcode/1013-partition-array-into-three-parts-with-equal-sum.md) | Easy |  |
