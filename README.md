@@ -50,6 +50,7 @@
 | 64 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum) | [Java](leetcode/0064-minimum-path-sum.md) | Medium | 动态规划 |
 | 65 | [有效数字](https://leetcode-cn.com/problems/valid-number) | [Java](leetcode/0061-valid-number.md) | Hard |  |
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one) | [Java](leetcode/0066-plus-one.md) | Easy |  |
+| 67 | [二进制求和](https://leetcode-cn.com/problems/add-binary) | [Java](leetcode/0067-add-binary.md) | Easy | |
 | 69 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx) | [Java](leetcode/0069-sqrtx.md) | Easy | 二分查找 |
 | 70 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs) | [Java](leetcode/0070-climbing-stairs.md) | Easy | 动态规划 |
 | 72 | [编辑距离](https://leetcode-cn.com/problems/edit-distance) | [Java](leetcode/0072-edit-distance.md) | Hard | 动态规划 |
