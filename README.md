@@ -173,6 +173,7 @@
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
 | 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划、二分 |
 | 892 | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | [Java](leetcode/0892-surface-area-of-3d-shapes.md) | Easy |  |
+| 896 | [单调数列](https://leetcode-cn.com/problems/monotonic-array) | [Go](leetcode/0896-monotonic-array.md) | Easy |  |
 | 905 | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity) | [Java](leetcode/0905-sort-array-by-parity.md) | Easy | 双指针 |
 | 912 | [排序数组](https://leetcode-cn.com/problems/sort-an-array) | [Java](leetcode/0912-sort-an-array.md) | Medium | 排序算法 |
 | 914 | [卡牌分组](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards) | [Java](leetcode/0914-x-of-a-kind-in-a-deck-of-cards.md) | Easy |  |
