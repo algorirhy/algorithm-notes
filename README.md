@@ -1,6 +1,6 @@
 # algorithm-notes
 
-### LeetCode
+`## LeetCode
 
 |**#**|**Title**|**Solution**|**Difficulty**|Tag|
 | :---: | :---: | :---: | :---: | :---: |
@@ -167,6 +167,7 @@
 | 703 | [数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream) | [Java](leetcode/0703-kth-largest-element-in-a-stream.md) | Easy |  |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [Java](leetcode/0709-to-lower-case.md) | Easy |  |
 | 739 | [每日温度](https://leetcode-cn.com/problems/daily-temperatures) | [Java](leetcode/0739-daily-temperatures.md) | Medium | 单调栈 |
+| 781 | [森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/) | [Go](leetcode/0781-rabbits-in-forest.md) | Medium | 贪心 |
 | 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |  |
 | 837 | [新21点](https://leetcode-cn.com/problems/new-21-game) | [Java](leetcode/0837-new-21-game.md) | Mediun | 动态规划 |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
@@ -198,7 +199,7 @@
 | 1162 | [地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible) | [Java](leetcode/1162-as-far-from-land-as-possible.md) | Medium | BFS |
 | 1248 | [统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays) | [Java](leetcode/1248-count-number-of-nice-subarrays.md) | Medium | 滑动窗口 |
 | 1371 | [每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts) | [Java](leetcode/1371-find-the-longest-substring-containing-vowels-in-even-counts.md) | Medium | 前缀和、位运算 |
-| 1431 | [ 拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies) | [Java](leetcode/1431-kids-with-the-greatest-number-of-candies.md) | Easy |  |
+| 1431 | [拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies) | [Java](leetcode/1431-kids-with-the-greatest-number-of-candies.md) | Easy |  |
 | lcci-0107 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | [Java](leetcode/lcci-0107-rotate-matrix.md) | Medium |  |
 | lcci-0811 | [硬币](https://leetcode-cn.com/problems/coin-lcci) | [Java](leetcode/lcci-0811-coin.md) | Medium | 动态规划 |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |  |
@@ -206,10 +207,7 @@
 | lcci-1709 | [第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci) | [Java](leetcode/lcci-1709-get-kth-magic-number.md) | Medium | |
 | lcci-1716 | [按摩师](https://leetcode-cn.com/problems/the-masseuse-lcci) | [Java](leetcode/lcci-1716-the-masseuse.md) | Easy |  |
 
-
-
-
-### 剑指 Offer
+## 剑指 Offer
 
 |**#**|Title|**Solution**|**Difficulty**|Tag|
 | :---: | :---: | :---: | :---: | :---: |
