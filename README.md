@@ -1,6 +1,6 @@
 # algorithm-notes
 
-`## LeetCode
+## LeetCode
 
 |**#**|**Title**|**Solution**|**Difficulty**|Tag|
 | :---: | :---: | :---: | :---: | :---: |
