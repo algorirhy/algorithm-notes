@@ -26,7 +26,7 @@
 | 23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) | [Java](leetcode/0023-merge-k-sorted-lists.md) | Hard |  |
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs) | [Java](leetcode/0024-swap-nodes-in-pairs.md) | Medium |  |
 | 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [Java](leetcode/0025-reverse-nodes-in-k-group.md) | Hard |  |
-| 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy |  |
+| 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [Java/Go](leetcode/0026-remove-duplicates-from-sorted-array.md) | Easy | 双指针 |
 | 27 | [移除元素](https://leetcode-cn.com/problems/remove-element) | [Java](leetcode/0027-remove-element.md) | Easy |  |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation) | [Java](leetcode/0031-next-permutation.md) | Medium |  |
 | 32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses) | [Java](leetcode/0032-longest-valid-parentheses.md) | Hard | 动态规划 |

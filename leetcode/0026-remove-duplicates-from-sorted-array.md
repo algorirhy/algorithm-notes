@@ -1,5 +1,9 @@
 # [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 
+双指针
+
+## Java
+
 ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -21,3 +25,20 @@ class Solution {
 }
 ```
 
+## Go
+
+```go
+func removeDuplicates(nums []int) int {
+    if len(nums) < 2 {
+        return len(nums)
+    }
+    slow := 0
+    for fast := 1; fast < len(nums); fast++ {
+        if nums[fast] != nums[slow] {
+            slow++
+            nums[slow] = nums[fast]
+        }
+    }
+    return slow+1
+}
+```
