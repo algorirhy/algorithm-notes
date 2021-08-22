@@ -167,7 +167,8 @@
 | 703 | [数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream) | [Java](leetcode/0703-kth-largest-element-in-a-stream.md) | Easy |  |
 | 709 | [转换成小写字母](https://leetcode.com/problems/to-lower-case) | [Java](leetcode/0709-to-lower-case.md) | Easy |  |
 | 739 | [每日温度](https://leetcode-cn.com/problems/daily-temperatures) | [Java](leetcode/0739-daily-temperatures.md) | Medium | 单调栈 |
-| 781 | [森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/) | [Go](leetcode/0781-rabbits-in-forest.md) | Medium | 贪心 |
+| 789 | [逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts) |[C++](leetcode/0789-escape-the-ghosts.md) | Medium ||
+| 781 | [森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest) | [Go](leetcode/0781-rabbits-in-forest.md) | Medium | 贪心 |
 | 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |  |
 | 837 | [新21点](https://leetcode-cn.com/problems/new-21-game) | [Java](leetcode/0837-new-21-game.md) | Mediun | 动态规划 |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
