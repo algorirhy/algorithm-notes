@@ -154,6 +154,7 @@
 | 466 | [统计重复个数](https://leetcode-cn.com/problems/count-the-repetitions) | [Java](leetcode/0466-count-the-repetitions.md) | Hard | |
 | 468 | [验证IP地址](https://leetcode-cn.com/problems/validate-ip-address) | [Java](leetcode/0468-validate-ip-address.md) | Medium |  |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Java](leetcode/0509-fibonacci-number.md) | Easy |  |
+| 528 | [按权重随机选择](https://leetcode-cn.com/problems/random-pick-with-weight/) | [C++](leetcode/0528-random-pick-with-weight.md) | Medium | 前缀和、二分查找 |
 | 541 | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii) | [Java](leetcode/0541-reverse-string-ii.md) | Easy |  |
 | 542 | [01 矩阵](https://leetcode-cn.com/problems/01-matrix) | [Java](leetcode/0542-01-matrix.md) | Medium | 动态规划 |
 | 543 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree) | [Java](leetcode/0543-diameter-of-binary-tree.md) | Easy |  |
@@ -173,7 +174,7 @@
 | 837 | [新21点](https://leetcode-cn.com/problems/new-21-game) | [Java](leetcode/0837-new-21-game.md) | Mediun | 动态规划 |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
-| 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划、二分 |
+| 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划、二分查找 |
 | 892 | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | [Java](leetcode/0892-surface-area-of-3d-shapes.md) | Easy |  |
 | 896 | [单调数列](https://leetcode-cn.com/problems/monotonic-array) | [Go](leetcode/0896-monotonic-array.md) | Easy |  |
 | 905 | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity) | [Java](leetcode/0905-sort-array-by-parity.md) | Easy | 双指针 |
