@@ -171,7 +171,7 @@
 | 789 | [逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts) |[C++](leetcode/0789-escape-the-ghosts.md) | Medium ||
 | 781 | [森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest) | [Go](leetcode/0781-rabbits-in-forest.md) | Medium | 贪心 |
 | 820 | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | [Java](leetcode/0820-short-encoding-of-words.md) | Medium |  |
-| 837 | [新21点](https://leetcode-cn.com/problems/new-21-game) | [Java](leetcode/0837-new-21-game.md) | Mediun | 动态规划 |
+| 837 | [新21点](https://leetcode-cn.com/problems/new-21-game) | [Java](leetcode/0837-new-21-game.md) | Medium | 动态规划 |
 | 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | [Java](leetcode/0860-lemonade-change.md) | Easy |  |
 | 876 | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [Java](leetcode/0876-middle-of-the-linked-list.md) | Easy |  |
 | 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Java](leetcode/0887-super-egg-drop.md) | Hard | 动态规划、二分查找 |
@@ -193,7 +193,8 @@
 | 1095 | [山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array) | [Java](leetcode/1095-find-in-mountain-array.md) | Hard | 二分查找 |
 | 1103 | [分糖果 II](https://leetcode-cn.com/problems/distribute-candies-to-people) | [Java](leetcode/1103-distribute-candies-to-people.md) | Easy |  |
 | 1108 | [IP 地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address) | [Java](leetcode/1108-defanging-an-ip-address.md) | Easy |  |
-| 1111 | [有效括号的嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) | [Java](leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings.md) | Meidum |  |
+| 1109 | [航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/) | [C++](leetcode/1109-corporate-flight-bookings.md) | Medium | 差分、前缀和 |
+| 1111 | [有效括号的嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) | [Java](leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings.md) | Medium |  |
 | 1114 | [按序打印](https://leetcode-cn.com/problems/print-in-order) | [Java](leetcode/1114-print-in-order.md) | Easy |  |
 | 1115 | [交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately) | [Java](leetcode/1115-print-foobar-alternately.md) | Medium |  |
 | 1143 | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence) | [Java](leetcode/1143-longest-common-subsequence.md) | Medium | 动态规划 |

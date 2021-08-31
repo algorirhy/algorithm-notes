@@ -2,6 +2,8 @@
 
 彩票调度 步长调度
 
+https://pages.cs.wisc.edu/~remzi/OSTEP/Chinese/09.pdf 
+
 ### 前缀和
 
 ```c++
