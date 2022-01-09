@@ -204,6 +204,7 @@
 | 1371 | [每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts) | [Java](leetcode/1371-find-the-longest-substring-containing-vowels-in-even-counts.md) | Medium | 前缀和、位运算 |
 | 1431 | [拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies) | [Java](leetcode/1431-kids-with-the-greatest-number-of-candies.md) | Easy |  |
 | 1480 | [一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array) | [C++](leetcode/1480-running-sum-of-1d-array.md) | Easy | |
+| 1629 | [按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/) | [Go](leetcode/1629-slowest-key.md) | Easy | |
 | lcci-0107 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | [Java](leetcode/lcci-0107-rotate-matrix.md) | Medium |  |
 | lcci-0811 | [硬币](https://leetcode-cn.com/problems/coin-lcci) | [Java](leetcode/lcci-0811-coin.md) | Medium | 动态规划 |
 | lcci-1001 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | [Java](leetcode/lcci-1001-sorted-merge.md) | Easy |  |
