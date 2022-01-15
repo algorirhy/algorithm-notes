@@ -126,7 +126,7 @@
 | 240 | [搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii) | [Java](leetcode/0240-search-a-2d-matrix-ii.md) | Medium |  |
 | 260 | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) | [Java](leetcode/0260-single-number-iii.md) | Medium | 位运算 |
 | 263 | [丑数](https://leetcode-cn.com/problems/ugly-number) | [Java](leetcode/0263-ugly-number.md) | Easy |  |
-| 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | [Java](leetcode/0264-ugly-number-ii.md) | Medium |  |
+| 264 | [丑数 II](https://leetcode-cn.com/problems/ugly-number-ii) | [Java](leetcode/0264-ugly-number-ii.md) | Medium | 多路归并、堆、优先队列 |
 | 279 | [完全平方数](https://leetcode-cn.com/problems/perfect-squares) | [Java](leetcode/0279-perfect-squares.md) | Medium | 动态规划 |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | [Java](leetcode/0283-move-zeroes.md) | Easy |  |
 | 287 | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number) | [Java](leetcode/0287-find-the-duplicate-number.md) | Medium | 二分查找 |
@@ -142,6 +142,7 @@
 | 347 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements) | [Java](leetcode/0347-top-k-frequent-elements.md) | Medium |  |
 | 355 | [设计推特](https://leetcode-cn.com/problems/design-twitter) | [Java](leetcode/0355-design-twitter.md) | Medium |  |
 | 365 | [水壶问题](https://leetcode-cn.com/classic/problems/water-and-jug-problem) | [Java](leetcode/0365-water-and-jug-problem.md) | Medium |  |
+| 373 | [查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/) | [Go](leetcode/0373-find-k-pairs-with-smallest-sums.md) | Medium | 优先队列 |
 | 384 | [打乱数组](https://leetcode-cn.com/problems/shuffle-an-array) | [Java](leetcode/0384-shuffle-an-array.md) | Medium | |
 | 394 | [字符串解码](https://leetcode-cn.com/problems/decode-string) | [Java](leetcode/0394-decode-string.md) | Medium | 栈 |
 | 400 | [第N个数字](https://leetcode-cn.com/problems/nth-digit) | [Java](leetcode/0400-nth-digit.md) | Medium |  |
